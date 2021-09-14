@@ -1,3 +1,6 @@
+metagenomes/*
+inStrain/*
+mappingResults/*
 ref_genomes/*
 *.Rproj
 .DS_Store
