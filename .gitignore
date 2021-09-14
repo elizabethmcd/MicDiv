@@ -1,3 +1,4 @@
+ref_genomes/*
 *.Rproj
 .DS_Store
 .Rproj.user
