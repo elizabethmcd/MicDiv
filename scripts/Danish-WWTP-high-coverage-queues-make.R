@@ -30,4 +30,6 @@ high_coverage_taxonomy <- high_coverage_pairs_names %>%
 high_coverage_jobs <- high_coverage_pairs %>% 
   select(genome, wwtp)
 
+high_coverage_jobs$wwtp <- gsub("\\.", "-", high_coverage_jobs$wwtp)
+
 write_tsv(high_coverage_jobs, "queues/Danish-WWTP-high-coverage-pairs-queue.txt")
