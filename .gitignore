@@ -1,3 +1,4 @@
+reference_genomes/*
 *.RData
 *.Rhistory
 datasets/*

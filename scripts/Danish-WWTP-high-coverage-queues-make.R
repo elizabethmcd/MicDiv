@@ -33,3 +33,11 @@ high_coverage_jobs <- high_coverage_pairs %>%
 high_coverage_jobs$wwtp <- gsub("\\.", "-", high_coverage_jobs$wwtp)
 
 write_tsv(high_coverage_jobs, "queues/Danish-WWTP-high-coverage-pairs-queue.txt")
+
+# Danish WWTP MAGs organization 
+
+wwtp_mags <- read.csv("metadata/Danish_WWTPs/Singleton2021-MAG-summaries.csv") %>%
+  filter(HQSpRep == "SPREPHQ") %>% 
+  select("MAG", "GTDBTax", "Comp", "Cont", "TotBP", "NumContigs")
+
+write.csv(wwtp_mags, "metadata/Danish_WWTPs_SPREP_MAG_metadata.csv", quote=FALSE, row.names = FALSE)
