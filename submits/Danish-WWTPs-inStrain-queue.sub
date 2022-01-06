@@ -1,0 +1,15 @@
+##############################
+# Danish WWTPs inStrain Queues
+##############################
+
+executable = /home/GLBRCORG/emcdaniel/MicDiv/executables/Danish-WWTPs-inStrain-queue.sh
+
+request_cpus = 6
+request_memory = 150GB
+arguments = $(mapping) $(genome)
+
+output = /home/GLBRCORG/emcdaniel/MicDiv/outs/$(Cluster)_$(Process)_inStrain_WWTPs.out
+error = /home/GLBRCORG/emcdaniel/MicDiv/errs/$(Cluster)_$(Process)_inStrain_WWTPs.err
+log = /home/GLBRCORG/emcdaniel/MicDiv/logs/$(Cluster)_$(Process)_inStrain_WWTPs.log
+
+queue mapping,genome from queues/Danish-inStrain-10X-covg-sample-genome-queue.txt
