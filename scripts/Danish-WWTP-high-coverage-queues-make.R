@@ -40,4 +40,4 @@ wwtp_mags <- read.csv("metadata/Danish_WWTPs/Singleton2021-MAG-summaries.csv") %
   filter(HQSpRep == "SPREPHQ") %>% 
   select("MAG", "GTDBTax", "Comp", "Cont", "TotBP", "NumContigs")
 
-write.csv(wwtp_mags, "metadata/Danish_WWTPs_SPREP_MAG_metadata.csv", quote=FALSE, row.names = FALSE)
+write.csv(wwtp_mags, "metadata/Danish_WWTPs/Danish_WWTPs_SPREP_MAG_metadata.csv", quote=FALSE, row.names = FALSE)
