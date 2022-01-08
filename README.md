@@ -1,3 +1,9 @@
-# Microbial Diversity within Lab-Scale Systems vs Complex Ecosystems 
+# Microbial Diversity within Lab-Scale Systems vs Natural Ecosystems
 
-Assessing intra-species variation of microbial lineages within lab-scale systems vs complex ecosystems using engineered water systems as a model compared to other ecosystems. 
+Assessing intra-population variation of microbial lineages within lab-scale systems vs complex microbial communities in natural environments. This repository is the main hub for these analyses but also references other repositories where main analyses for specific modules were performed. This repository specifically contains code for performing intra-population diversity analyses of multiple environments, whereas the other repositories are for more specific datasets and analyses. 
+
+- [MCFA AD Bioreactor](https://github.com/elizabethmcd/MCFA): An anaerobic microbiome operated for medium-chain fatty acid production studied with time-series genome-resolved metagenomics and metatranscriptomics. _Scarborough et al. 2018 mSystems_.  
+- [EBPR Abigail Enrichment Bioreactor](https://github.com/elizabethmcd/Abigail_EBPR_SBR): A lab-scale EBPR enrichment bioreactor operated in 2021 over the course of a few months, named after Abigail Salyers 
+- [EBPR R1R2 Bioreactor Long-term time-series](https://github.com/elizabethmcd/R1PopDynamics): Lab-scale EBPR enrichment bioreactors that operated for approximately 10 years with multiple metagenomic timepoints taken
+- [EBPR Photobioreactor](https://github.com/elizabethmcd/obscurePOS): Lab-scale EBPR bioreactor operating photosynthetically without mechanical aeration. _Oyserman et al. 2017 ES&T, McDaniel et al. 2021 MRA._
+- [Wisconsin Freshwater Microbial Observatory](https://github.com/elizabethmcd/Lake-MAGs): Long-term metagenomic time-series of Wisconsin freshwater lakes
