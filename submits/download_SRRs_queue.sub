@@ -1,0 +1,15 @@
+##############################
+# Download SRRs submit
+##############################
+
+executable = /home/GLBRCORG/emcdaniel/MicDiv/executables/download_SRRs_queue.sh
+
+request_cpus = 6
+request_memory = 150GB
+arguments = $(srr) $(directory)
+
+output = /home/GLBRCORG/emcdaniel/MicDiv/outs/$(Cluster)_$(Process)_download.out
+error = /home/GLBRCORG/emcdaniel/MicDiv/errs/$(Cluster)_$(Process)_download.err
+log = /home/GLBRCORG/emcdaniel/MicDiv/logs/$(Cluster)_$(Process)_download.log
+
+queue srr,directory from queues/ZymoBiomics_SRA_Download.txt
