@@ -1,0 +1,15 @@
+##############################
+# Filter Zymo metagenomes
+##############################
+
+executable = /home/GLBRCORG/emcdaniel/MicDiv/executables/fastp_filter.sh
+
+request_cpus = 6
+request_memory = 150GB
+arguments = $(file1) $(file2) $(out1) $(out2)
+
+output = /home/GLBRCORG/emcdaniel/MicDiv/outs/$(Cluster)_$(Process)_filter.out
+error = /home/GLBRCORG/emcdaniel/MicDiv/errs/$(Cluster)_$(Process)_filter.err
+log = /home/GLBRCORG/emcdaniel/MicDiv/logs/$(Cluster)_$(Process)_filter.log
+
+queue file1,file2,out1,out2 from queues/zymo_metagenomes.txt

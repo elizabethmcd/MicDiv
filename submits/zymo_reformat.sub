@@ -1,0 +1,15 @@
+##############################
+# Reformat Zymo metagenomic reads
+##############################
+
+executable = /home/GLBRCORG/emcdaniel/MicDiv/executables/reformat_reads.sh
+
+request_cpus = 6
+request_memory = 150GB
+arguments = $(file1) $(file2) $(out)
+
+output = /home/GLBRCORG/emcdaniel/MicDiv/outs/$(Cluster)_$(Process)_reformat.out
+error = /home/GLBRCORG/emcdaniel/MicDiv/errs/$(Cluster)_$(Process)_reformat.err
+log = /home/GLBRCORG/emcdaniel/MicDiv/logs/$(Cluster)_$(Process)_reformat.log
+
+queue file1,file2,out from queues/zymo_reads.txt
