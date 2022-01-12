@@ -1,0 +1,15 @@
+##############################
+# inStrain quick profile Queues
+##############################
+
+executable = /home/GLBRCORG/emcdaniel/MicDiv/executables/zymo-inStrain-quick-profile.sh
+
+request_cpus = 6
+request_memory = 150GB
+arguments = $(sam)
+
+output = /home/GLBRCORG/emcdaniel/MicDiv/outs/$(Cluster)_$(Process)_quick_profile.out
+error = /home/GLBRCORG/emcdaniel/MicDiv/errs/$(Cluster)_$(Process)_quick_profile.err
+log = /home/GLBRCORG/emcdaniel/MicDiv/logs/$(Cluster)_$(Process)_quick_profile.log
+
+queue sam from queues/zymo_sorted_bams.txt

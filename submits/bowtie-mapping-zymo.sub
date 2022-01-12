@@ -1,0 +1,15 @@
+##############################
+# Bowtie2 map zymo reads
+##############################
+
+executable = /home/GLBRCORG/emcdaniel/MicDiv/executables/bowtie-mapping-zymo.sh
+
+request_cpus = 6
+request_memory = 150GB
+arguments = $(reads)
+
+output = /home/GLBRCORG/emcdaniel/MicDiv/outs/$(Cluster)_$(Process)_bowtie-mapping-zymo.out
+error = /home/GLBRCORG/emcdaniel/MicDiv/errs/$(Cluster)_$(Process)_bowtie-mapping-zymo.err
+log = /home/GLBRCORG/emcdaniel/MicDiv/logs/$(Cluster)_$(Process)_bowtie-mapping-zymo.log
+
+queue reads from queues/zymo_interleaved.txt
