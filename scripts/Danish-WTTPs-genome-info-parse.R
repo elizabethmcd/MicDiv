@@ -26,7 +26,8 @@ danish_wwtps_div_table <- danish_wwtps_info_filtered %>% select(genome, filename
 
 # clean names and filter by completeness and contamination
 danish_wwtps_div_info <- left_join(danish_wwtps_div_table, danish_mags_metadata) %>% 
-  filter(completeness > 80 & contamination < 5) %>% 
+  filter(completeness > 80 & contamination < 5) %>%
+  mutate(gtdb = taxonomy) %>% 
   separate(taxonomy, into=c("taxonomy", "phylum"), sep="p__") %>%
   separate(filename, into=c("org", "sample"), sep="-vs-") %>% 
   select(-taxonomy, -org)
@@ -51,6 +52,12 @@ above_5_samples <- danish_wwtps_div_info %>%
   filter(n > 5) %>% # select those genomes that are present in 5 or more samples
   pull(genome)
 
+top_10_lineages <- danish_wwtps_div_info %>% 
+  count(genome, phylum) %>% 
+  arrange(desc(n)) %>% 
+  top_n(10, n) %>% 
+  pull(genome)
+
 danish_wwtps_div_info %>% 
   filter(genome %in% above_5_samples) %>% 
   ggplot(aes(x=r2_mean, y=nucl_diversity)) + geom_point(aes(color=phylum)) + facet_wrap(~ sample)
@@ -61,4 +68,14 @@ danish_wwtps_div_info %>%
   summarize(mean_nucl_div = mean(nucl_diversity), mean_r2 = mean(r2_mean), n=n()) %>% 
   ggplot(aes(x=mean_r2, y=mean_nucl_div)) + geom_point(aes(color=phylum))
 
+danish_wwtps_div_info %>% 
+  mutate(sample = gsub("_.*", "", sample)) %>% 
+  filter(genome %in% above_5_samples) %>% 
+  ggplot(aes(x=sample, y=nucl_diversity)) + geom_point(aes(color=phylum)) + facet_wrap(~ gtdb)
 
+danish_wwtps_top10_div <- danish_wwtps_div_info %>% 
+  mutate(sample = gsub("_.*", "", sample)) %>% 
+  filter(genome %in% top_10_lineages) %>% 
+  ggplot(aes(x=sample, y=nucl_diversity)) + geom_point(aes(color=phylum)) + facet_wrap(~ gtdb, ncol=2) + theme_bw() + theme(legend.position = "bottom")
+
+ggsave("figs/Danish-WWTPs-Top10-diversity.png", danish_wwtps_top10_div, width=18, height=7, units=c("in"))
