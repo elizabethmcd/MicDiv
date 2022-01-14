@@ -1,0 +1,15 @@
+##############################
+# Zymo inStrain Queues
+##############################
+
+executable = /home/GLBRCORG/emcdaniel/MicDiv/executables/zymo-inStrain-profile-queues.sh
+
+request_cpus = 6
+request_memory = 150GB
+arguments = $(genome) $(mapping)
+
+output = /home/GLBRCORG/emcdaniel/MicDiv/outs/$(Cluster)_$(Process)_inStrain_zymo.out
+error = /home/GLBRCORG/emcdaniel/MicDiv/errs/$(Cluster)_$(Process)_inStrain_zymo.err
+log = /home/GLBRCORG/emcdaniel/MicDiv/logs/$(Cluster)_$(Process)_inStrain_zymo.log
+
+queue genome,mapping from queues/zymo-inStrain-queues.txt
