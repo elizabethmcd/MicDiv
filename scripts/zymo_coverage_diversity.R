@@ -13,3 +13,5 @@ zymo_queues <- zymo_coverage%>%
   mutate(genome = paste(genome, "fa", sep=".")) %>% 
   mutate(filename = gsub("_genomeCoverage.csv", "", filename)) %>% 
   mutate(filename = paste(filename, "fastq.sorted.bam", sep="."))
+
+write_tsv(zymo_queues, "queues/zymo-inStrain-queues.txt", col_names = FALSE)
