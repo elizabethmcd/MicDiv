@@ -1,3 +1,4 @@
+figs/
 results/*
 reference_genomes/*
 *.RData
