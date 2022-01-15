@@ -10,6 +10,23 @@ zymo_div_final <- zymo_div_table %>%
   mutate(dataset = "Zymo")
 
 # R1R2 
+r1r2_diversity_table <- read.csv("results/R1R2/R1R2-inStrain-diversity-table.csv")
+
+r1r2_div_final <- r1r2_diversity_table %>% 
+  group_by(Genome) %>% 
+  summarize(mean_pi = mean(nucl_diversity)) %>% 
+  mutate(dataset = "R1R2") %>% 
+  mutate(genome = Genome) %>% 
+  select(genome, mean_pi, dataset)
+
+# MCFA
+
+mcfa_diversity_table <- read.csv("results/MCFA/mcfa-diversity-table.csv")
+
+mcfa_div_final <- mcfa_diversity_table %>% 
+  group_by(genome) %>% 
+  summarize(mean_pi = mean(nucl_diversity)) %>% 
+  mutate(dataset = "MCFA")
 
 # Danish WWTPs 
 danish_div_final <- danish_wwtps_div_info %>% 
@@ -19,6 +36,6 @@ danish_div_final <- danish_wwtps_div_info %>%
 
 
 # All datasets diversity 
-all_datasets_diversity <- rbind(zymo_div_final, danish_div_final)
+all_datasets_diversity <- rbind(zymo_div_final, danish_div_final, r1r2_div_final, mcfa_div_final)
 
 all_datasets_diversity %>% ggplot(aes(x=dataset, y=mean_pi)) + geom_jitter()
