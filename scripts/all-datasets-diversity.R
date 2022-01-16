@@ -19,8 +19,21 @@ r1r2_div_final <- r1r2_diversity_table %>%
   mutate(genome = Genome) %>% 
   select(genome, mean_pi, dataset)
 
-# MCFA
+# POB
+pob_div_final <- pob_div_filtered %>% 
+  group_by(genome) %>% 
+  summarize(mean_pi = mean(nucl_diversity)) %>% 
+  mutate(dataset = "POB")
 
+# Abigail reactor
+abigail_diversity_table <- read.csv("results/Abigail/Abigail-inStrain-diversity-table.csv")
+
+abigail_div_final <- abigail_diversity_table %>% 
+  group_by(genome) %>% 
+  summarize(mean_pi = mean(nucl_diversity)) %>% 
+  mutate(dataset = "Abigail")
+
+# MCFA
 mcfa_diversity_table <- read.csv("results/MCFA/mcfa-diversity-table.csv")
 
 mcfa_div_final <- mcfa_diversity_table %>% 
@@ -36,6 +49,6 @@ danish_div_final <- danish_wwtps_div_info %>%
 
 
 # All datasets diversity 
-all_datasets_diversity <- rbind(zymo_div_final, danish_div_final, r1r2_div_final, mcfa_div_final)
+all_datasets_diversity <- rbind(zymo_div_final, danish_div_final, r1r2_div_final, mcfa_div_final, pob_div_final, abigail_div_final)
 
 all_datasets_diversity %>% ggplot(aes(x=dataset, y=mean_pi)) + geom_jitter()
