@@ -1,0 +1,525 @@
+# PRJNA523022 Assembly Details
+# Assembly	Level	WGS	BioSample	Isolate	Taxonomy
+GCA_016871375.1	Contig	VFYY00000000	SAMN10966228	K_Offshore_120m_m2_006	Acidimicrobiia bacterium	
+GCA_016871175.1	Contig	VFZL00000000	SAMN10966241	K_Offshore_80m_m2_117	Acidimicrobiia bacterium	
+GCA_016871275.1	Contig	VFZG00000000	SAMN10966236	M_DeepCast_65m_m2_224	Acidimicrobiia bacterium	
+GCA_016871255.1	Contig	VFZH00000000	SAMN10966237	K_Offshore_80m_m2_020	Acidimicrobiia bacterium	
+GCA_016871235.1	Contig	VFZI00000000	SAMN10966238	K_Offshore_80m_m2_035	Acidimicrobiia bacterium	
+GCA_016871215.1	Contig	VFZK00000000	SAMN10966240	K_Offshore_80m_m2_092	Acidimicrobiia bacterium	
+GCA_016871335.1	Contig	VFZF00000000	SAMN10966235	K_DeepCast_65m_m1_223	Acidimicrobiia bacterium	
+GCA_016871315.1	Contig	VFZE00000000	SAMN10966234	K_DeepCast_65m_m1_022	Acidimicrobiia bacterium	
+GCA_016871195.1	Contig	VFZN00000000	SAMN10966243	M_surface_10_m1_251	Acidobacteria bacterium	
+GCA_016871155.1	Contig	VFZO00000000	SAMN10966244	M_DeepCast_100m_m2_066	Acidobacteria bacterium	
+GCA_016871135.1	Contig	VFZQ00000000	SAMN10966246	M_DeepCast_100m_mx_118	Acidobacteria bacterium	
+GCA_016871115.1	Contig	VFZP00000000	SAMN10966245	M_DeepCast_100m_m2_149	Acidobacteria bacterium	
+GCA_016871095.1	Contig	VFZS00000000	SAMN10966248	K_DeepCast_250m_m1_110	Acidobacteria bacterium	
+GCA_016871075.1	Contig	VFZT00000000	SAMN10966249	K_DeepCast_250m_m2_119	Acidobacteria bacterium	
+GCA_016871055.1	Contig	VFZW00000000	SAMN10966252	K_DeepCast_65m_m2_251	Acidobacteria bacterium	
+GCA_016871025.1	Contig	VFZV00000000	SAMN10966251	M_DeepCast_50m_m2_162	Acidobacteria bacterium	
+GCA_016871015.1	Contig	VFZX00000000	SAMN10966253	K_Offshore_80m_m2_003	Acidobacteria bacterium	
+GCA_016870995.1	Contig	VFZU00000000	SAMN10966250	K_Offshore_40m_m2_176	Acidobacteria bacterium	
+GCA_016870915.1	Contig	VFZY00000000	SAMN10966254	K_Offshore_80m_m2_102	Acidobacteria bacterium	
+GCA_016866025.1	Contig	VGNS00000000	SAMN10966614	K_DeepCast_150m_m2_272	Actinobacteria bacterium	
+GCA_016871295.1	Contig	VFZD00000000	SAMN10966233	M_DeepCast_50m_m2_117	Actinobacteria bacterium	
+GCA_016871395.1	Contig	VFYV00000000	SAMN10966225	K_DeepCast_0m_m1_227	Actinobacteria bacterium	
+GCA_016875775.1	Contig	VGOV00000000	SAMN10966643	K_DeepCast_65m_m2_193	Actinobacteria bacterium	
+GCA_016870895.1	Contig	VGAA00000000	SAMN10966256	M_surface_7_m2_032	Actinobacteria bacterium	
+GCA_016870865.1	Contig	VGAC00000000	SAMN10966258	M_surface_8_m2_026	Actinobacteria bacterium	
+GCA_016870855.1	Contig	VGAF00000000	SAMN10966261	M_surface_9_m1_017	Actinobacteria bacterium	
+GCA_016870835.1	Contig	VGAG00000000	SAMN10966263	M_surface_9_m2_080	Actinobacteria bacterium	
+GCA_016870815.1	Contig	VGAI00000000	SAMN10966265	M_surface_10_m2_076	Actinobacteria bacterium	
+GCA_016870795.1	Contig	VGAJ00000000	SAMN10966266	M_surface_10_m2_136	Actinobacteria bacterium	
+GCA_016870775.1	Contig	VGAK00000000	SAMN10966267	M_surface_10_m2_188	Actinobacteria bacterium	
+GCA_016870725.1	Contig	VGAN00000000	SAMN10966270	K_DeepCast_100m_m1_278	Actinobacteria bacterium	
+GCA_016870735.1	Contig	VGAS00000000	SAMN10966275	K_DeepCast_1200m_m2_005	Actinobacteria bacterium	
+GCA_016870715.1	Contig	VGAL00000000	SAMN10966268	K_Offshore_0m_m1_007	Actinobacteria bacterium	
+GCA_016870695.1	Contig	VGAV00000000	SAMN10966278	K_DeepCast_1200m_m2_272	Actinobacteria bacterium	
+GCA_016870675.1	Contig	VGAU00000000	SAMN10966277	K_DeepCast_1200m_m2_204	Actinobacteria bacterium	
+GCA_016870655.1	Contig	VGBA00000000	SAMN10966283	K_DeepCast_150m_m2_294	Actinobacteria bacterium	
+GCA_016870635.1	Contig	VGAX00000000	SAMN10966280	K_DeepCast_150m_m1_051	Actinobacteria bacterium	
+GCA_016870615.1	Contig	VGAZ00000000	SAMN10966282	K_DeepCast_150m_m2_097	Actinobacteria bacterium	
+GCA_016870595.1	Contig	VGBI00000000	SAMN10966291	K_DeepCast_35m_m1_297	Actinobacteria bacterium	
+GCA_016870575.1	Contig	VGBH00000000	SAMN10966290	K_DeepCast_35m_m1_047	Actinobacteria bacterium	
+GCA_016870535.1	Contig	VGBK00000000	SAMN10966293	M_DeepCast_400m_m2_130	Actinobacteria bacterium	
+GCA_016870525.1	Contig	VGBJ00000000	SAMN10966292	M_DeepCast_400m_m1_127	Actinobacteria bacterium	
+GCA_016870515.1	Contig	VGBL00000000	SAMN10966294	K_Offshore_40m_m1_268	Actinobacteria bacterium	
+GCA_016870485.1	Contig	VGBM00000000	SAMN10966295	K_Offshore_40m_m2_012	Actinobacteria bacterium	
+GCA_016870475.1	Contig	VGBO00000000	SAMN10966297	K_Offshore_40m_m2_105	Actinobacteria bacterium	
+GCA_016870455.1	Contig	VGBN00000000	SAMN10966296	K_Offshore_40m_m2_034	Actinobacteria bacterium	
+GCA_016870415.1	Contig	VGBP00000000	SAMN10966298	K_Offshore_40m_m2_139	Actinobacteria bacterium	
+GCA_016870425.1	Contig	VGBQ00000000	SAMN10966299	K_Offshore_40m_m2_150	Actinobacteria bacterium	
+GCA_016870395.1	Contig	VGBT00000000	SAMN10966302	K_DeepCast_65m_m2_097	Actinobacteria bacterium	
+GCA_016870355.1	Contig	VGBR00000000	SAMN10966300	M_DeepCast_50m_m2_189	Actinobacteria bacterium	
+GCA_016870365.1	Contig	VGBW00000000	SAMN10966305	K_DeepCast_65m_m2_221	Actinobacteria bacterium	
+GCA_016870325.1	Contig	VGBV00000000	SAMN10966304	K_DeepCast_65m_m2_213	Actinobacteria bacterium	
+GCA_016870315.1	Contig	VGBX00000000	SAMN10966306	M_DeepCast_65m_m2_256	Actinobacteria bacterium	
+GCA_016870295.1	Contig	VGBY00000000	SAMN10966307	K_Offshore_80m_m1_031	Actinobacteria bacterium	
+GCA_016870275.1	Contig	VGBZ00000000	SAMN10966308	K_Offshore_80m_m1_195	Actinobacteria bacterium	
+GCA_016870245.1	Contig	VGCA00000000	SAMN10966309	K_Offshore_80m_m2_056	Actinobacteria bacterium	
+GCA_016870235.1	Contig	VGCB00000000	SAMN10966310	K_Offshore_80m_m2_094	Actinobacteria bacterium	
+GCA_016870215.1	Contig	VGCD00000000	SAMN10966312	K_Offshore_surface_m2_010	Actinobacteria bacterium	
+GCA_016870195.1	Contig	VGCC00000000	SAMN10966311	K_Offshore_80m_m2_226	Actinobacteria bacterium	
+GCA_016870155.1	Contig	VGCE00000000	SAMN10966313	K_Offshore_surface_m2_014	Actinobacteria bacterium	
+GCA_016870975.1	Contig	VGAE00000000	SAMN10966260	M_surface_9_m1_009	Actinobacteria bacterium	
+GCA_016870945.1	Contig	VGAH00000000	SAMN10966264	M_surface_9_m2_101	Actinobacteria bacterium	
+GCA_016870935.1	Contig	VGAB00000000	SAMN10966257	M_surface_7_m2_239	Actinobacteria bacterium	
+GCA_016871355.1	Contig	VFZC00000000	SAMN10966232	K_Offshore_40m_m2_124	Actinobacteria bacterium	
+GCA_016871435.1	Contig	VFYX00000000	SAMN10966227	K_Offshore_120m_m1_195	Actinobacteria bacterium	
+GCA_016869095.1	Contig	VGEX00000000	SAMN10966384	K_Offshore_surface_m2_020	Alphaproteobacteria bacterium	
+GCA_016869075.1	Contig	VGEY00000000	SAMN10966385	K_Offshore_surface_mx_080	Alphaproteobacteria bacterium	
+GCA_016870135.1	Contig	VGCF00000000	SAMN10966314	M_surface_7_m2_013	Alphaproteobacteria bacterium	
+GCA_016870115.1	Contig	VGCH00000000	SAMN10966316	M_surface_9_m2_109	Alphaproteobacteria bacterium	
+GCA_016870095.1	Contig	VGCI00000000	SAMN10966317	M_surface_10_m2_100	Alphaproteobacteria bacterium	
+GCA_016870055.1	Contig	VGCQ00000000	SAMN10966325	K_Offshore_120m_m2_043	Alphaproteobacteria bacterium	
+GCA_016870045.1	Contig	VGCL00000000	SAMN10966320	K_DeepCast_100m_mx_141	Alphaproteobacteria bacterium	
+GCA_016870035.1	Contig	VGCJ00000000	SAMN10966318	M_surface_10_m2_180	Alphaproteobacteria bacterium	
+GCA_016870015.1	Contig	VGCV00000000	SAMN10966330	K_DeepCast_250m_m2_101	Alphaproteobacteria bacterium	
+GCA_016869995.1	Contig	VGCU00000000	SAMN10966329	M_DeepCast_200m_mx_060	Alphaproteobacteria bacterium	
+GCA_016869975.1	Contig	VGCZ00000000	SAMN10966334	K_DeepCast_35m_m2_067	Alphaproteobacteria bacterium	
+GCA_016869955.1	Contig	VGCY00000000	SAMN10966333	K_DeepCast_35m_m1_317	Alphaproteobacteria bacterium	
+GCA_016869935.1	Contig	VGCX00000000	SAMN10966332	K_DeepCast_35m_m1_027	Alphaproteobacteria bacterium	
+GCA_016869895.1	Contig	VGDC00000000	SAMN10966337	M_DeepCast_400m_m1_040	Alphaproteobacteria bacterium	
+GCA_016869915.1	Contig	VGDA00000000	SAMN10966335	K_DeepCast_35m_m2_271	Alphaproteobacteria bacterium	
+GCA_016869875.1	Contig	VGDE00000000	SAMN10966339	M_DeepCast_400m_m1_328	Alphaproteobacteria bacterium	
+GCA_016869845.1	Contig	VGDB00000000	SAMN10966336	K_DeepCast_35m_m2_327	Alphaproteobacteria bacterium	
+GCA_016869835.1	Contig	VGDH00000000	SAMN10966342	K_Offshore_40m_m1_238	Alphaproteobacteria bacterium	
+GCA_016869815.1	Contig	VGDI00000000	SAMN10966343	K_Offshore_40m_m1_243	Alphaproteobacteria bacterium	
+GCA_016869765.1	Contig	VGES00000000	SAMN10966379	K_Offshore_80m_m2_186	Alphaproteobacteria bacterium	
+GCA_016869775.1	Contig	VGDJ00000000	SAMN10966344	K_Offshore_40m_m2_131	Alphaproteobacteria bacterium	
+GCA_016869745.1	Contig	VGDK00000000	SAMN10966345	K_Offshore_40m_m2_283	Alphaproteobacteria bacterium	
+GCA_016869735.1	Contig	VGDL00000000	SAMN10966346	K_Offshore_40m_mx_105	Alphaproteobacteria bacterium	
+GCA_016869715.1	Contig	VGDM00000000	SAMN10966347	K_Offshore_40m_mx_120	Alphaproteobacteria bacterium	
+GCA_016869695.1	Contig	VGDN00000000	SAMN10966348	M_DeepCast_50m_m1_063	Alphaproteobacteria bacterium	
+GCA_016869675.1	Contig	VGDP00000000	SAMN10966350	M_DeepCast_50m_m2_221	Alphaproteobacteria bacterium	
+GCA_016869635.1	Contig	VGDQ00000000	SAMN10966351	K_DeepCast_65m_m1_262	Alphaproteobacteria bacterium	
+GCA_016869645.1	Contig	VGDO00000000	SAMN10966349	M_DeepCast_50m_m2_111	Alphaproteobacteria bacterium	
+GCA_016869615.1	Contig	VGDS00000000	SAMN10966353	M_DeepCast_65m_m1_019	Alphaproteobacteria bacterium	
+GCA_016869595.1	Contig	VGDT00000000	SAMN10966354	M_DeepCast_65m_m1_022	Alphaproteobacteria bacterium	
+GCA_016869575.1	Contig	VGDV00000000	SAMN10966356	M_DeepCast_65m_m1_275	Alphaproteobacteria bacterium	
+GCA_016869555.1	Contig	VGDY00000000	SAMN10966359	M_DeepCast_65m_m2_041	Alphaproteobacteria bacterium	
+GCA_016869535.1	Contig	VGDX00000000	SAMN10966358	M_DeepCast_65m_m2_016	Alphaproteobacteria bacterium	
+GCA_016869515.1	Contig	VGDZ00000000	SAMN10966360	M_DeepCast_65m_m2_129	Alphaproteobacteria bacterium	
+GCA_016869495.1	Contig	VGEA00000000	SAMN10966361	M_DeepCast_65m_m2_243	Alphaproteobacteria bacterium	
+GCA_016869475.1	Contig	VGEE00000000	SAMN10966365	K_Offshore_80m_m1_220	Alphaproteobacteria bacterium	
+GCA_016869455.1	Contig	VGEF00000000	SAMN10966366	K_Offshore_80m_m2_048	Alphaproteobacteria bacterium	
+GCA_016869435.1	Contig	VGEB00000000	SAMN10966362	M_DeepCast_65m_mx_036	Alphaproteobacteria bacterium	
+GCA_016869415.1	Contig	VGEI00000000	SAMN10966369	K_Offshore_80m_m2_053	Alphaproteobacteria bacterium	
+GCA_016869395.1	Contig	VGEG00000000	SAMN10966367	K_Offshore_80m_m2_049	Alphaproteobacteria bacterium	
+GCA_016869375.1	Contig	VGEH00000000	SAMN10966368	K_Offshore_80m_m2_051	Alphaproteobacteria bacterium	
+GCA_016869355.1	Contig	VGEK00000000	SAMN10966371	K_Offshore_80m_m2_081	Alphaproteobacteria bacterium	
+GCA_016869335.1	Contig	VGEJ00000000	SAMN10966370	K_Offshore_80m_m2_061	Alphaproteobacteria bacterium	
+GCA_016869315.1	Contig	VGEM00000000	SAMN10966373	K_Offshore_80m_m2_101	Alphaproteobacteria bacterium	
+GCA_016869285.1	Contig	VGEN00000000	SAMN10966374	K_Offshore_80m_m2_107	Alphaproteobacteria bacterium	
+GCA_016869275.1	Contig	VGEO00000000	SAMN10966375	K_Offshore_80m_m2_115	Alphaproteobacteria bacterium	
+GCA_016869255.1	Contig	VGEQ00000000	SAMN10966377	K_Offshore_80m_m2_146	Alphaproteobacteria bacterium	
+GCA_016869235.1	Contig	VGER00000000	SAMN10966378	K_Offshore_80m_m2_162	Alphaproteobacteria bacterium	
+GCA_016869215.1	Contig	VGEP00000000	SAMN10966376	K_Offshore_80m_m2_123	Alphaproteobacteria bacterium	
+GCA_016869195.1	Contig	VGET00000000	SAMN10966380	K_Offshore_80m_m2_187	Alphaproteobacteria bacterium	
+GCA_016869175.1	Contig	VGEV00000000	SAMN10966382	K_Offshore_80m_m2_228	Alphaproteobacteria bacterium	
+GCA_016869145.1	Contig	VGEU00000000	SAMN10966381	K_Offshore_80m_m2_191	Alphaproteobacteria bacterium	
+GCA_016869135.1	Contig	VGEW00000000	SAMN10966383	K_Offshore_surface_m1_194	Alphaproteobacteria bacterium	
+GCA_016870175.1	Contig	VGCG00000000	SAMN10966315	M_surface_8_m2_185	Alphaproteobacteria bacterium	
+GCA_016869115.1	Contig	VGEZ00000000	SAMN10966386	K_DeepCast_100m_m2_289	Armatimonadetes bacterium	
+GCA_016869045.1	Contig	VGFC00000000	SAMN10966389	K_DeepCast_250m_m2_231	Armatimonadetes bacterium	
+GCA_016869025.1	Contig	VGFA00000000	SAMN10966387	K_DeepCast_1200m_m2_191	Armatimonadetes bacterium	
+GCA_016869015.1	Contig	VGFB00000000	SAMN10966388	K_DeepCast_150m_m2_147	Armatimonadetes bacterium	
+GCA_016868995.1	Contig	VGFE00000000	SAMN10966391	M_DeepCast_50m_m2_207	Armatimonadetes bacterium	
+GCA_016868975.1	Contig	VGFD00000000	SAMN10966390	M_DeepCast_50m_m2_086	Armatimonadetes bacterium	
+GCA_016868955.1	Contig	VGFF00000000	SAMN10966392	K_Offshore_80m_m1_225	Armatimonadetes bacterium	
+GCA_016866255.1	Contig	VGMY00000000	SAMN10966594	K_Offshore_surface_m2_005	Bacteroidetes bacterium	
+GCA_016866235.1	Contig	VGMW00000000	SAMN10966592	K_Offshore_40m_m2_287	Bacteroidetes bacterium	
+GCA_016866415.1	Contig	VGML00000000	SAMN10966581	M_surface_9_m2_064	Bacteroidetes bacterium	
+GCA_016866375.1	Contig	VGMK00000000	SAMN10966580	M_surface_9_m2_059	Bacteroidetes bacterium	
+GCA_016866385.1	Contig	VGMU00000000	SAMN10966590	K_Offshore_40m_m1_251	Bacteroidetes bacterium	
+GCA_016866355.1	Contig	VGMN00000000	SAMN10966583	K_DeepCast_0m_m2_222	Bacteroidetes bacterium	
+GCA_016866335.1	Contig	VGMT00000000	SAMN10966589	K_DeepCast_35m_m2_130	Bacteroidetes bacterium	
+GCA_016868915.1	Contig	VGFL00000000	SAMN10966398	M_surface_7_m2_242	Bacteroidetes bacterium	
+GCA_016868905.1	Contig	VGFH00000000	SAMN10966394	M_surface_6_mx_051	Bacteroidetes bacterium	
+GCA_016868895.1	Contig	VGFK00000000	SAMN10966397	M_surface_7_m2_191	Bacteroidetes bacterium	
+GCA_016868875.1	Contig	VGFN00000000	SAMN10966400	M_surface_8_m2_110	Bacteroidetes bacterium	
+GCA_016868855.1	Contig	VGFP00000000	SAMN10966402	M_surface_9_m1_013	Bacteroidetes bacterium	
+GCA_016868835.1	Contig	VGFR00000000	SAMN10966404	M_surface_9_m1_277	Bacteroidetes bacterium	
+GCA_016868815.1	Contig	VGFQ00000000	SAMN10966403	M_surface_9_m1_241	Bacteroidetes bacterium	
+GCA_016868785.1	Contig	VGFS00000000	SAMN10966405	M_surface_9_m1_279	Bacteroidetes bacterium	
+GCA_016868775.1	Contig	VGFT00000000	SAMN10966406	M_surface_9_m1_282	Bacteroidetes bacterium	
+GCA_016868755.1	Contig	VGFU00000000	SAMN10966407	M_surface_9_m2_088	Bacteroidetes bacterium	
+GCA_016868735.1	Contig	VGFV00000000	SAMN10966408	M_surface_9_mx_130	Bacteroidetes bacterium	
+GCA_016868715.1	Contig	VGFW00000000	SAMN10966409	M_surface_9_mx_152	Bacteroidetes bacterium	
+GCA_016868695.1	Contig	VGGA00000000	SAMN10966413	K_DeepCast_0m_m2_115	Bacteroidetes bacterium	
+GCA_016868645.1	Contig	VGFY00000000	SAMN10966411	M_surface_10_m2_196	Bacteroidetes bacterium	
+GCA_016868635.1	Contig	VGGI00000000	SAMN10966421	K_DeepCast_100m_m2_162	Bacteroidetes bacterium	
+GCA_016868615.1	Contig	VGGH00000000	SAMN10966420	K_DeepCast_100m_m2_150	Bacteroidetes bacterium	
+GCA_016868585.1	Contig	VGGR00000000	SAMN10966430	M_DeepCast_50m_m1_018	Bacteroidetes bacterium	
+GCA_016868575.1	Contig	VGGL00000000	SAMN10966424	K_DeepCast_150m_m2_049	Bacteroidetes bacterium	
+GCA_016868535.1	Contig	VGGQ00000000	SAMN10966429	K_DeepCast_35m_m2_065	Bacteroidetes bacterium	
+GCA_016868525.1	Contig	VGGS00000000	SAMN10966431	M_DeepCast_50m_m1_274	Bacteroidetes bacterium	
+GCA_016868515.1	Contig	VGGM00000000	SAMN10966425	K_DeepCast_150m_m2_259	Bacteroidetes bacterium	
+GCA_016868485.1	Contig	VGGT00000000	SAMN10966432	M_DeepCast_50m_m1_285	Bacteroidetes bacterium	
+GCA_016868475.1	Contig	VGGU00000000	SAMN10966433	M_DeepCast_65m_mx_068	Bacteroidetes bacterium	
+GCA_016868455.1	Contig	VGGV00000000	SAMN10966434	K_Offshore_80m_m1_206	Bacteroidetes bacterium	
+GCA_016868395.1	Contig	VGGW00000000	SAMN10966435	K_Offshore_surface_m2_247	Bacteroidetes bacterium	
+GCA_016868375.1	Contig	VGHA00000000	SAMN10966439	M_surface_7_m1_304	Betaproteobacteria bacterium	
+GCA_016868355.1	Contig	VGHB00000000	SAMN10966440	M_surface_9_m1_249	Betaproteobacteria bacterium	
+GCA_016868315.1	Contig	VGHE00000000	SAMN10966443	M_surface_10_m2_064	Betaproteobacteria bacterium	
+GCA_016868305.1	Contig	VGHK00000000	SAMN10966449	M_DeepCast_100m_m2_214	Betaproteobacteria bacterium	
+GCA_016868295.1	Contig	VGHJ00000000	SAMN10966448	M_DeepCast_100m_m1_373	Betaproteobacteria bacterium	
+GCA_016868275.1	Contig	VGHL00000000	SAMN10966450	K_Offshore_120m_m1_203	Betaproteobacteria bacterium	
+GCA_016868255.1	Contig	VGHN00000000	SAMN10966452	K_DeepCast_35m_m1_018	Betaproteobacteria bacterium	
+GCA_016868225.1	Contig	VGHP00000000	SAMN10966454	K_DeepCast_35m_m2_259	Betaproteobacteria bacterium	
+GCA_016868205.1	Contig	VGHR00000000	SAMN10966456	K_Offshore_40m_m1_237	Betaproteobacteria bacterium	
+GCA_016868195.1	Contig	VGHQ00000000	SAMN10966455	K_Offshore_40m_m1_049	Betaproteobacteria bacterium	
+GCA_016868175.1	Contig	VGHO00000000	SAMN10966453	K_DeepCast_35m_m1_286	Betaproteobacteria bacterium	
+GCA_016868155.1	Contig	VGHS00000000	SAMN10966457	K_Offshore_40m_m1_259	Betaproteobacteria bacterium	
+GCA_016868135.1	Contig	VGHT00000000	SAMN10966458	K_Offshore_40m_m1_292	Betaproteobacteria bacterium	
+GCA_016868095.1	Contig	VGHV00000000	SAMN10966460	K_Offshore_40m_m2_080	Betaproteobacteria bacterium	
+GCA_016868105.1	Contig	VGIA00000000	SAMN10966465	K_DeepCast_65m_m2_129	Betaproteobacteria bacterium	
+GCA_016868075.1	Contig	VGHW00000000	SAMN10966461	K_Offshore_40m_m2_212	Betaproteobacteria bacterium	
+GCA_016868055.1	Contig	VGHX00000000	SAMN10966462	K_Offshore_40m_mx_035	Betaproteobacteria bacterium	
+GCA_016868035.1	Contig	VGID00000000	SAMN10966468	K_Offshore_80m_m1_178	Betaproteobacteria bacterium	
+GCA_016868015.1	Contig	VGIF00000000	SAMN10966470	K_Offshore_80m_m2_113	Betaproteobacteria bacterium	
+GCA_016867965.1	Contig	VGIH00000000	SAMN10966472	K_Offshore_surface_m1_010	Betaproteobacteria bacterium	
+GCA_016867975.1	Contig	VGIC00000000	SAMN10966467	M_DeepCast_65m_m2_126	Betaproteobacteria bacterium	
+GCA_016867955.1	Contig	VGIE00000000	SAMN10966469	K_Offshore_80m_m2_043	Betaproteobacteria bacterium	
+GCA_016867925.1	Contig	VGIJ00000000	SAMN10966474	K_Offshore_surface_m1_273	Betaproteobacteria bacterium	
+GCA_016868425.1	Contig	VGHD00000000	SAMN10966442	M_surface_10_m1_315	Betaproteobacteria bacterium	
+GCA_016868415.1	Contig	VGHM00000000	SAMN10966451	K_Offshore_120m_m2_141	Betaproteobacteria bacterium	
+GCA_016873935.1	Contig	VGVT00000000	SAMN10966823	K_DeepCast_150m_m1_387	Betaproteobacteria bacterium	
+GCA_016873905.1	Contig	VGVU00000000	SAMN10966824	K_DeepCast_150m_m2_250	Betaproteobacteria bacterium	
+GCA_016867875.1	Contig	VGIL00000000	SAMN10966476	K_Offshore_surface_m2_092	Betaproteobacteria bacterium	
+GCA_016867865.1	Contig	VGIP00000000	SAMN10966480	M_DeepCast_400m_m2_340	Calditrichaeota bacterium	
+GCA_016867855.1	Contig	VGIO00000000	SAMN10966479	K_DeepCast_250m_m2_227	Calditrichaeota bacterium	
+GCA_016867835.1	Contig	VGIQ00000000	SAMN10966481	M_DeepCast_65m_m1_265	Calditrichaeota bacterium	
+GCA_016867675.1	Contig	VGIZ00000000	SAMN10966490	K_DeepCast_250m_m1_172	Candidatus Aenigmarchaeota archaeon	
+GCA_016867655.1	Contig	VGJA00000000	SAMN10966491	M_DeepCast_200m_m2_220	Candidatus Altiarchaeales archaeon	
+GCA_016867635.1	Contig	VGJC00000000	SAMN10966493	K_DeepCast_150m_m1_388	Candidatus Aminicenantes bacterium	
+GCA_016867615.1	Contig	VGJG00000000	SAMN10966497	M_DeepCast_400m_m2_293	Candidatus Aminicenantes bacterium	
+GCA_016867585.1	Contig	VGJF00000000	SAMN10966496	M_DeepCast_400m_m2_244	Candidatus Aminicenantes bacterium	
+GCA_016867575.1	Contig	VGJD00000000	SAMN10966494	K_DeepCast_250m_m1_044	Candidatus Aminicenantes bacterium	
+GCA_016867535.1	Contig	VGJE00000000	SAMN10966495	M_DeepCast_400m_m2_133	Candidatus Aminicenantes bacterium	
+GCA_016867505.1	Contig	VGJH00000000	SAMN10966498	K_DeepCast_250m_m2_015	Candidatus Bathyarchaeota archaeon	
+GCA_016875605.1	Contig	VGPH00000000	SAMN10966655	K_DeepCast_150m_m2_105	Candidatus Cloacimonetes bacterium	
+GCA_016875595.1	Contig	VGPI00000000	SAMN10966656	K_DeepCast_250m_m1_043	Candidatus Cloacimonetes bacterium	
+GCA_016875575.1	Contig	VGPK00000000	SAMN10966658	M_DeepCast_400m_m2_266	Candidatus Cloacimonetes bacterium	
+GCA_016871815.1	Contig	VHBT00000000	SAMN10966980	K_Offshore_40m_m1_063	Candidatus Dependentiae bacterium	
+GCA_016871905.1	Contig	VHBR00000000	SAMN10966978	K_Offshore_120m_m2_035	Candidatus Dependentiae bacterium	
+GCA_016871865.1	Contig	VHBS00000000	SAMN10966979	K_DeepCast_35m_m1_037	Candidatus Dependentiae bacterium	
+GCA_016867455.1	Contig	VGJJ00000000	SAMN10966500	M_DeepCast_50m_m2_156	Candidatus Diapherotrites archaeon	
+GCA_016867715.1	Contig	VGIW00000000	SAMN10966487	K_DeepCast_150m_m1_344	Candidatus Eisenbacteria bacterium	
+GCA_016867695.1	Contig	VGIY00000000	SAMN10966489	M_DeepCast_400m_m2_100	Candidatus Eisenbacteria bacterium	
+GCA_016867495.1	Contig	VGJL00000000	SAMN10966502	K_DeepCast_250m_m1_333	Candidatus Eisenbacteria bacterium	
+GCA_016867725.1	Contig	VGIX00000000	SAMN10966488	M_DeepCast_400m_m1_028	Candidatus Eisenbacteria bacterium	
+GCA_016867475.1	Contig	VGJN00000000	SAMN10966504	K_DeepCast_250m_m1_078	Candidatus Gottesmanbacteria bacterium	
+GCA_016873955.1	Contig	VGVS00000000	SAMN10966822	M_DeepCast_400m_m2_153	Candidatus Gribaldobacteria bacterium	
+GCA_016867395.1	Contig	VGJS00000000	SAMN10966509	K_DeepCast_65m_m1_133	Candidatus Handelsmanbacteria bacterium	
+GCA_016867415.1	Contig	VGJO00000000	SAMN10966505	K_Offshore_120m_m1_041	Candidatus Harrisonbacteria bacterium	
+GCA_016867435.1	Contig	VGJP00000000	SAMN10966506	M_DeepCast_65m_m2_204	Candidatus Hydrogenedentes bacterium	
+GCA_016867375.1	Contig	VGJQ00000000	SAMN10966507	M_DeepCast_65m_m1_095	Candidatus Kaiserbacteria bacterium	
+GCA_016867345.1	Contig	VGJR00000000	SAMN10966508	M_DeepCast_65m_mx_099	Candidatus Kaiserbacteria bacterium	
+GCA_016867315.1	Contig	VGJV00000000	SAMN10966512	M_DeepCast_50m_m2_187	Candidatus Liptonbacteria bacterium	
+GCA_016867255.1	Contig	VGKB00000000	SAMN10966518	K_DeepCast_150m_m2_305	Candidatus Moranbacteria bacterium	
+GCA_016867215.1	Contig	VGKC00000000	SAMN10966519	K_DeepCast_250m_m1_236	Candidatus Nealsonbacteria bacterium	
+GCA_016867195.1	Contig	VGKE00000000	SAMN10966521	M_DeepCast_400m_m2_122	Candidatus Nealsonbacteria bacterium	
+GCA_016867175.1	Contig	VGKF00000000	SAMN10966522	K_DeepCast_150m_m2_086	Candidatus Omnitrophica bacterium	
+GCA_016867155.1	Contig	VGKI00000000	SAMN10966525	M_DeepCast_400m_m1_102	Candidatus Omnitrophica bacterium	
+GCA_016867135.1	Contig	VGKH00000000	SAMN10966524	K_DeepCast_250m_m2_027	Candidatus Omnitrophica bacterium	
+GCA_016867115.1	Contig	VGKG00000000	SAMN10966523	M_DeepCast_200m_m2_189	Candidatus Omnitrophica bacterium	
+GCA_016867095.1	Contig	VGKK00000000	SAMN10966527	M_DeepCast_400m_m2_183	Candidatus Omnitrophica bacterium	
+GCA_016867075.1	Contig	VGKJ00000000	SAMN10966526	M_DeepCast_400m_m2_096	Candidatus Omnitrophica bacterium	
+GCA_016867055.1	Contig	VGKN00000000	SAMN10966530	K_DeepCast_250m_m2_062	Candidatus Omnitrophica bacterium	
+GCA_016867005.1	Contig	VGKM00000000	SAMN10966529	K_DeepCast_150m_m1_084	Candidatus Omnitrophica bacterium	
+GCA_016866995.1	Contig	VGKQ00000000	SAMN10966533	M_DeepCast_400m_m2_082	Candidatus Pacearchaeota archaeon	
+GCA_016866975.1	Contig	VGKP00000000	SAMN10966532	K_Offshore_120m_m2_023	Candidatus Pacearchaeota archaeon	
+GCA_016866955.1	Contig	VGKT00000000	SAMN10966536	K_Offshore_80m_m2_097	Candidatus Pacearchaeota archaeon	
+GCA_016866935.1	Contig	VGKS00000000	SAMN10966535	M_DeepCast_50m_m2_169	Candidatus Pacearchaeota archaeon	
+GCA_016866915.1	Contig	VGKR00000000	SAMN10966534	M_DeepCast_400m_m2_303	Candidatus Pacearchaeota archaeon	
+GCA_016867035.1	Contig	VGKO00000000	SAMN10966531	K_DeepCast_100m_m1_149	Candidatus Pacearchaeota archaeon	
+GCA_016882235.1	Contig	VGKU00000000	SAMN10966537	M_DeepCast_50m_m2_233	Candidatus Parcubacteria bacterium	
+GCA_016866895.1	Contig	VGKX00000000	SAMN10966540	M_DeepCast_65m_mx_140	Candidatus Parvarchaeota archaeon	
+GCA_016866815.1	Contig	VGKZ00000000	SAMN10966542	K_DeepCast_65m_m2_238	Candidatus Peregrinibacteria bacterium	
+GCA_016866875.1	Contig	VGKY00000000	SAMN10966541	K_Offshore_120m_m1_009	Candidatus Peribacteria bacterium	
+GCA_016866835.1	Contig	VGLE00000000	SAMN10966547	K_DeepCast_300m_m1_220	Candidatus Poribacteria bacterium	
+GCA_016866825.1	Contig	VGLC00000000	SAMN10966545	M_DeepCast_200m_m2_052	Candidatus Poribacteria bacterium	
+GCA_016866785.1	Contig	VGLH00000000	SAMN10966550	M_DeepCast_65m_m2_014	Candidatus Poribacteria bacterium	
+GCA_016866775.1	Contig	VGLJ00000000	SAMN10966552	M_DeepCast_50m_m1_133	Candidatus Rokubacteria bacterium	
+GCA_016875855.1	Contig	VGOT00000000	SAMN10966641	M_DeepCast_50m_m1_244	Candidatus Rokubacteria bacterium	
+GCA_016866755.1	Contig	VGLK00000000	SAMN10966553	K_DeepCast_1200m_m2_081	Candidatus Saccharibacteria bacterium	
+GCA_016867265.1	Contig	VGJW00000000	SAMN10966513	K_Offshore_40m_m2_103	Candidatus Sericytochromatia bacterium	
+GCA_016867235.1	Contig	VGJY00000000	SAMN10966515	M_DeepCast_65m_m2_071	Candidatus Sericytochromatia bacterium	
+GCA_016867295.1	Contig	VGJX00000000	SAMN10966514	K_DeepCast_65m_m2_236	Candidatus Sericytochromatia bacterium	
+GCA_016866695.1	Contig	VGLM00000000	SAMN10966555	K_DeepCast_250m_mx_219	Candidatus Shapirobacteria bacterium	
+GCA_016866735.1	Contig	VGLL00000000	SAMN10966554	K_DeepCast_150m_m1_139	Candidatus Shapirobacteria bacterium	
+GCA_016866675.1	Contig	VGLO00000000	SAMN10966557	M_DeepCast_50m_m2_049	Candidatus Staskawiczbacteria bacterium	
+GCA_016867915.1	Contig	VGIM00000000	SAMN10966477	K_DeepCast_1200m_m1_317	Candidatus Sumerlaeota bacterium	
+GCA_016866715.1	Contig	VGLS00000000	SAMN10966561	K_DeepCast_65m_m2_066	Candidatus Tectomicrobia bacterium	
+GCA_016866635.1	Contig	VGLT00000000	SAMN10966562	M_DeepCast_50m_m1_090	Candidatus Uhrbacteria bacterium	
+GCA_016882195.1	Contig	VGLU00000000	SAMN10966563	M_DeepCast_400m_m2_128	Candidatus Verstraetearchaeota archaeon	
+GCA_016866615.1	Contig	VGLZ00000000	SAMN10966569	M_DeepCast_65m_m2_091	Candidatus Woesearchaeota archaeon	
+GCA_016866645.1	Contig	VGLX00000000	SAMN10966567	M_DeepCast_400m_m2_277	Candidatus Woesearchaeota archaeon	
+GCA_016866585.1	Contig	VGMB00000000	SAMN10966571	M_surface_9_m2_137	Chlamydiae bacterium	
+GCA_016866575.1	Contig	VGMA00000000	SAMN10966570	M_surface_7_m1_001	Chlamydiae bacterium	
+GCA_016866545.1	Contig	VGMD00000000	SAMN10966573	K_DeepCast_35m_m1_012	Chlamydiae bacterium	
+GCA_016866535.1	Contig	VGMC00000000	SAMN10966572	K_Offshore_120m_m2_055	Chlamydiae bacterium	
+GCA_016866515.1	Contig	VGME00000000	SAMN10966574	K_DeepCast_35m_m1_073	Chlamydiae bacterium	
+GCA_016866495.1	Contig	VGMG00000000	SAMN10966576	K_DeepCast_35m_m2_204	Chlamydiae bacterium	
+GCA_016866475.1	Contig	VGMF00000000	SAMN10966575	K_DeepCast_35m_m2_096	Chlamydiae bacterium	
+GCA_016866455.1	Contig	VGMH00000000	SAMN10966577	M_DeepCast_50m_m2_029	Chlamydiae bacterium	
+GCA_016866435.1	Contig	VGMI00000000	SAMN10966578	M_DeepCast_50m_m2_194	Chlamydiae bacterium	
+GCA_016866305.1	Contig	VGMX00000000	SAMN10966593	M_DeepCast_65m_m2_268	Chlorobi bacterium	
+GCA_016868665.1	Contig	VGGK00000000	SAMN10966423	K_DeepCast_1200m_m2_283	Chlorobi bacterium	
+GCA_016875835.1	Contig	VGOR00000000	SAMN10966639	M_DeepCast_400m_m2_269	Chloroflexi bacterium	
+GCA_016875815.1	Contig	VGOQ00000000	SAMN10966638	M_DeepCast_400m_m2_252	Chloroflexi bacterium	
+GCA_016875795.1	Contig	VGOU00000000	SAMN10966642	M_DeepCast_50m_m2_054	Chloroflexi bacterium	
+GCA_016875555.1	Contig	VGPG00000000	SAMN10966654	K_Offshore_surface_m1_220	Chloroflexi bacterium	
+GCA_016875535.1	Contig	VGPF00000000	SAMN10966653	K_Offshore_80m_m2_218	Chloroflexi bacterium	
+GCA_016875755.1	Contig	VGOX00000000	SAMN10966645	M_DeepCast_65m_m2_156	Chloroflexi bacterium	
+GCA_016875735.1	Contig	VGOW00000000	SAMN10966644	M_DeepCast_65m_m1_226	Chloroflexi bacterium	
+GCA_016875715.1	Contig	VGOZ00000000	SAMN10966647	K_Offshore_80m_m1_189	Chloroflexi bacterium	
+GCA_016875695.1	Contig	VGPB00000000	SAMN10966649	K_Offshore_80m_m2_170	Chloroflexi bacterium	
+GCA_016875665.1	Contig	VGPA00000000	SAMN10966648	K_Offshore_80m_m2_157	Chloroflexi bacterium	
+GCA_016875645.1	Contig	VGPE00000000	SAMN10966652	K_Offshore_80m_m2_197	Chloroflexi bacterium	
+GCA_016875635.1	Contig	VGPD00000000	SAMN10966651	K_Offshore_80m_m2_183	Chloroflexi bacterium	
+GCA_016876035.1	Contig	VGOE00000000	SAMN10966626	K_DeepCast_250m_m2_143	Chloroflexi bacterium	
+GCA_016876015.1	Contig	VGOD00000000	SAMN10966625	K_DeepCast_250m_m2_061	Chloroflexi bacterium	
+GCA_016875995.1	Contig	VGOG00000000	SAMN10966628	K_DeepCast_250m_m2_317	Chloroflexi bacterium	
+GCA_016875975.1	Contig	VGOF00000000	SAMN10966627	K_DeepCast_250m_m2_195	Chloroflexi bacterium	
+GCA_016875955.1	Contig	VGOH00000000	SAMN10966629	K_DeepCast_250m_mx_116	Chloroflexi bacterium	
+GCA_016875925.1	Contig	VGOO00000000	SAMN10966636	M_DeepCast_400m_m2_044	Chloroflexi bacterium	
+GCA_016875915.1	Contig	VGOM00000000	SAMN10966634	M_DeepCast_400m_m2_020	Chloroflexi bacterium	
+GCA_016875895.1	Contig	VGOS00000000	SAMN10966640	M_DeepCast_400m_m2_351	Chloroflexi bacterium	
+GCA_016875875.1	Contig	VGOP00000000	SAMN10966637	M_DeepCast_400m_m2_207	Chloroflexi bacterium	
+GCA_016866295.1	Contig	VGND00000000	SAMN10966599	K_DeepCast_100m_m2_152	Chloroflexi bacterium	
+GCA_016866215.1	Contig	VGNE00000000	SAMN10966600	K_DeepCast_100m_m2_203	Chloroflexi bacterium	
+GCA_016866195.1	Contig	VGNF00000000	SAMN10966601	K_DeepCast_100m_m2_305	Chloroflexi bacterium	
+GCA_016866165.1	Contig	VGNH00000000	SAMN10966603	M_DeepCast_100m_mx_312	Chloroflexi bacterium	
+GCA_016866155.1	Contig	VGNG00000000	SAMN10966602	M_DeepCast_100m_mx_191	Chloroflexi bacterium	
+GCA_016866135.1	Contig	VGNI00000000	SAMN10966604	K_DeepCast_1200m_m1_255	Chloroflexi bacterium	
+GCA_016866115.1	Contig	VGNL00000000	SAMN10966607	K_DeepCast_150m_m1_015	Chloroflexi bacterium	
+GCA_016866095.1	Contig	VGNN00000000	SAMN10966609	K_DeepCast_150m_m2_048	Chloroflexi bacterium	
+GCA_016866075.1	Contig	VGNM00000000	SAMN10966608	K_DeepCast_150m_m1_063	Chloroflexi bacterium	
+GCA_016866055.1	Contig	VGNK00000000	SAMN10966606	K_Offshore_120m_m2_037	Chloroflexi bacterium	
+GCA_016866015.1	Contig	VGNP00000000	SAMN10966611	K_DeepCast_150m_m2_126	Chloroflexi bacterium	
+GCA_016865985.1	Contig	VGNO00000000	SAMN10966610	K_DeepCast_150m_m2_071	Chloroflexi bacterium	
+GCA_016865975.1	Contig	VGNQ00000000	SAMN10966612	K_DeepCast_150m_m2_167	Chloroflexi bacterium	
+GCA_016865955.1	Contig	VGNW00000000	SAMN10966618	M_DeepCast_200m_m2_194	Chloroflexi bacterium	
+GCA_016865935.1	Contig	VGOB00000000	SAMN10966623	K_DeepCast_250m_m1_199	Chloroflexi bacterium	
+GCA_016865915.1	Contig	VGOA00000000	SAMN10966622	K_DeepCast_250m_m1_047	Chloroflexi bacterium	
+GCA_016865895.1	Contig	VGNY00000000	SAMN10966620	M_DeepCast_200m_mx_194	Chloroflexi bacterium	
+GCA_016865855.1	Contig	VGNX00000000	SAMN10966619	M_DeepCast_200m_m2_208	Chloroflexi bacterium	
+GCA_016865865.1	Contig	VGOC00000000	SAMN10966624	K_DeepCast_250m_m1_342	Chloroflexi bacterium	
+GCA_016866245.1	Contig	VGNB00000000	SAMN10966597	K_DeepCast_100m_m1_112	Chloroflexi bacterium	
+GCA_016875485.1	Contig	VGPL00000000	SAMN10966659	K_DeepCast_250m_mx_298	Crenarchaeota archaeon	
+GCA_016882465.1	Contig	VGPX00000000	SAMN10966671	K_DeepCast_0m_m1_088	Cyanobacteria bacterium K_DeepCast_0m_m1_088	
+GCA_016882405.1	Contig	VGQK00000000	SAMN10966684	K_DeepCast_150m_m2_101	Cyanobacteria bacterium K_DeepCast_150m_m2_101	
+GCA_016882365.1	Contig	VGQQ00000000	SAMN10966690	K_DeepCast_35m_m1_288	Cyanobacteria bacterium K_DeepCast_35m_m1_288	
+GCA_016882345.1	Contig	VGQR00000000	SAMN10966691	K_DeepCast_35m_m2_023	Cyanobacteria bacterium K_DeepCast_35m_m2_023	
+GCA_016882285.1	Contig	VGQS00000000	SAMN10966692	K_DeepCast_35m_m2_155	Cyanobacteria bacterium K_DeepCast_35m_m2_155	
+GCA_016882435.1	Contig	VGQA00000000	SAMN10966674	K_Offshore_0m_m2_072	Cyanobacteria bacterium K_Offshore_0m_m2_072	
+GCA_016882315.1	Contig	VGQW00000000	SAMN10966696	K_Offshore_surface_m2_011	Cyanobacteria bacterium K_Offshore_surface_m2_011	
+GCA_016882305.1	Contig	VGQX00000000	SAMN10966697	K_Offshore_surface_m2_239	Cyanobacteria bacterium K_Offshore_surface_m2_239	
+GCA_016882385.1	Contig	VGQC00000000	SAMN10966676	M_DeepCast_100m_m1_067	Cyanobacteria bacterium M_DeepCast_100m_m1_067	
+GCA_016882415.1	Contig	VGQL00000000	SAMN10966685	M_DeepCast_200m_mx_001	Cyanobacteria bacterium M_DeepCast_200m_mx_001	
+GCA_016882485.1	Contig	VGPT00000000	SAMN10966667	M_surface_10_m1_298	Cyanobacteria bacterium M_surface_10_m1_298	
+GCA_016882525.1	Contig	VGPU00000000	SAMN10966668	M_surface_10_m2_119	Cyanobacteria bacterium M_surface_10_m2_119	
+GCA_016882545.1	Contig	VGPW00000000	SAMN10966670	M_surface_10_m2_179	Cyanobacteria bacterium M_surface_10_m2_179	
+GCA_016882585.1	Contig	VGPP00000000	SAMN10966663	M_surface_7_m2_037	Cyanobacteria bacterium M_surface_7_m2_037	
+GCA_016882555.1	Contig	VGPQ00000000	SAMN10966664	M_surface_7_m2_040	Cyanobacteria bacterium M_surface_7_m2_040	
+GCA_016882495.1	Contig	VGPR00000000	SAMN10966665	M_surface_9_m1_291	Cyanobacteria bacterium M_surface_9_m1_291	
+GCA_016875515.1	Contig	VGRA00000000	SAMN10966700	K_Offshore_0m_m1_055	Deltaproteobacteria bacterium	
+GCA_016875475.1	Contig	VGRB00000000	SAMN10966701	K_DeepCast_100m_m1_326	Deltaproteobacteria bacterium	
+GCA_016875445.1	Contig	VGRC00000000	SAMN10966702	K_DeepCast_100m_mx_210	Deltaproteobacteria bacterium	
+GCA_016875435.1	Contig	VGRE00000000	SAMN10966704	K_Offshore_120m_m2_200	Deltaproteobacteria bacterium	
+GCA_016875405.1	Contig	VGRJ00000000	SAMN10966709	K_DeepCast_35m_m2_009	Deltaproteobacteria bacterium	
+GCA_016875395.1	Contig	VGRF00000000	SAMN10966705	K_Offshore_120m_mx_162	Deltaproteobacteria bacterium	
+GCA_016875375.1	Contig	VGRM00000000	SAMN10966712	M_DeepCast_400m_m1_331	Deltaproteobacteria bacterium	
+GCA_016875355.1	Contig	VGRK00000000	SAMN10966710	K_DeepCast_35m_m2_046	Deltaproteobacteria bacterium	
+GCA_016875335.1	Contig	VGRO00000000	SAMN10966714	M_DeepCast_65m_m1_011	Deltaproteobacteria bacterium	
+GCA_016875315.1	Contig	VGRQ00000000	SAMN10966716	M_DeepCast_65m_m2_104	Deltaproteobacteria bacterium	
+GCA_016875295.1	Contig	VGRS00000000	SAMN10966718	K_Offshore_80m_m2_039	Deltaproteobacteria bacterium	
+GCA_016875265.1	Contig	VGRV00000000	SAMN10966721	K_DeepCast_100m_m2_189	Deltaproteobacteria bacterium	
+GCA_016875255.1	Contig	VGRU00000000	SAMN10966720	K_DeepCast_100m_m1_199	Deltaproteobacteria bacterium	
+GCA_016875225.1	Contig	VGRW00000000	SAMN10966722	K_DeepCast_100m_m2_268	Deltaproteobacteria bacterium	
+GCA_016875215.1	Contig	VGRX00000000	SAMN10966723	K_DeepCast_100m_m2_324	Deltaproteobacteria bacterium	
+GCA_016875195.1	Contig	VGRY00000000	SAMN10966724	K_DeepCast_100m_mx_276	Deltaproteobacteria bacterium	
+GCA_016875165.1	Contig	VGSF00000000	SAMN10966731	K_DeepCast_150m_m1_110	Deltaproteobacteria bacterium	
+GCA_016875155.1	Contig	VGSD00000000	SAMN10966729	K_DeepCast_1200m_m2_207	Deltaproteobacteria bacterium	
+GCA_016875135.1	Contig	VGSE00000000	SAMN10966730	K_Offshore_120m_m2_196	Deltaproteobacteria bacterium	
+GCA_016875115.1	Contig	VGSA00000000	SAMN10966726	M_DeepCast_100m_m2_010	Deltaproteobacteria bacterium	
+GCA_016875095.1	Contig	VGSG00000000	SAMN10966732	K_DeepCast_150m_m1_199	Deltaproteobacteria bacterium	
+GCA_016875075.1	Contig	VGSK00000000	SAMN10966736	K_DeepCast_150m_m2_113	Deltaproteobacteria bacterium	
+GCA_016875055.1	Contig	VGSL00000000	SAMN10966737	K_DeepCast_150m_m2_257	Deltaproteobacteria bacterium	
+GCA_016875025.1	Contig	VGSH00000000	SAMN10966733	K_DeepCast_150m_m1_356	Deltaproteobacteria bacterium	
+GCA_016875015.1	Contig	VGSJ00000000	SAMN10966735	K_DeepCast_150m_m2_098	Deltaproteobacteria bacterium	
+GCA_016874995.1	Contig	VGSN00000000	SAMN10966739	M_DeepCast_200m_m2_133	Deltaproteobacteria bacterium	
+GCA_016874975.1	Contig	VGSQ00000000	SAMN10966742	K_DeepCast_250m_m2_102	Deltaproteobacteria bacterium	
+GCA_016874945.1	Contig	VGSO00000000	SAMN10966740	K_DeepCast_250m_m1_077	Deltaproteobacteria bacterium	
+GCA_016874935.1	Contig	VGSS00000000	SAMN10966744	K_DeepCast_250m_m2_302	Deltaproteobacteria bacterium	
+GCA_016874915.1	Contig	VGSW00000000	SAMN10966748	K_DeepCast_300m_m2_211	Deltaproteobacteria bacterium	
+GCA_016874895.1	Contig	VGSX00000000	SAMN10966749	K_DeepCast_300m_m2_247	Deltaproteobacteria bacterium	
+GCA_016874875.1	Contig	VGTA00000000	SAMN10966752	K_DeepCast_35m_m1_177	Deltaproteobacteria bacterium	
+GCA_016874845.1	Contig	VGSZ00000000	SAMN10966751	K_DeepCast_35m_m1_088	Deltaproteobacteria bacterium	
+GCA_016874835.1	Contig	VGTB00000000	SAMN10966753	M_DeepCast_400m_m1_009	Deltaproteobacteria bacterium	
+GCA_016874815.1	Contig	VGTF00000000	SAMN10966757	K_DeepCast_65m_m1_217	Deltaproteobacteria bacterium	
+GCA_016874795.1	Contig	VGTG00000000	SAMN10966758	K_DeepCast_65m_m2_035	Deltaproteobacteria bacterium	
+GCA_016874775.1	Contig	VGTJ00000000	SAMN10966761	K_Offshore_80m_m2_194	Deltaproteobacteria bacterium	
+GCA_016874755.1	Contig	VGTH00000000	SAMN10966759	K_Offshore_80m_m1_159	Deltaproteobacteria bacterium	
+GCA_016874735.1	Contig	VGTI00000000	SAMN10966760	K_Offshore_80m_m2_119	Deltaproteobacteria bacterium	
+GCA_016874715.1	Contig	VGTK00000000	SAMN10966762	K_Offshore_80m_m2_211	Deltaproteobacteria bacterium	
+GCA_016867545.1	Contig	VGJI00000000	SAMN10966499	K_DeepCast_300m_mx_218	Deltaproteobacteria bacterium	
+GCA_016874685.1	Contig	VGTM00000000	SAMN10966764	K_DeepCast_300m_m2_256	Euryarchaeota archaeon	
+GCA_016874675.1	Contig	VGTL00000000	SAMN10966763	M_DeepCast_200m_m1_298	Euryarchaeota archaeon	
+GCA_016874635.1	Contig	VGTN00000000	SAMN10966765	M_DeepCast_400m_m2_325	Euryarchaeota archaeon	
+GCA_016874655.1	Contig	VGTO00000000	SAMN10966766	K_DeepCast_150m_m2_056	Firmicutes bacterium	
+GCA_016872075.1	Contig	VHBF00000000	SAMN10966966	M_surface_6_m1_040	Firmicutes bacterium	
+GCA_016882265.1	Contig	VGVB00000000	SAMN10966805	M_DeepCast_65m_mx_133	Gammaproteobacteria bacterium	
+GCA_016874615.1	Contig	VGTQ00000000	SAMN10966768	M_surface_6_m2_085	Gammaproteobacteria bacterium	
+GCA_016874585.1	Contig	VGUD00000000	SAMN10966781	K_Offshore_0m_mx_117	Gammaproteobacteria bacterium	
+GCA_016874565.1	Contig	VGUU00000000	SAMN10966798	K_DeepCast_35m_m1_077	Gammaproteobacteria bacterium	
+GCA_016874555.1	Contig	VGTW00000000	SAMN10966774	M_surface_9_m2_068	Gammaproteobacteria bacterium	
+GCA_016874535.1	Contig	VGUA00000000	SAMN10966778	M_surface_10_m2_141	Gammaproteobacteria bacterium	
+GCA_016874315.1	Contig	VGTX00000000	SAMN10966775	M_surface_9_m2_177	Gammaproteobacteria bacterium	
+GCA_016874295.1	Contig	VGUH00000000	SAMN10966785	M_DeepCast_100m_m1_014	Gammaproteobacteria bacterium	
+GCA_016874275.1	Contig	VGUG00000000	SAMN10966784	K_DeepCast_100m_m2_315	Gammaproteobacteria bacterium	
+GCA_016874245.1	Contig	VGUZ00000000	SAMN10966803	M_DeepCast_65m_m1_270	Gammaproteobacteria bacterium	
+GCA_016874235.1	Contig	VGUJ00000000	SAMN10966787	M_DeepCast_100m_m2_072	Gammaproteobacteria bacterium	
+GCA_016874215.1	Contig	VGUO00000000	SAMN10966792	K_Offshore_120m_m1_194	Gammaproteobacteria bacterium	
+GCA_016874185.1	Contig	VGUW00000000	SAMN10966800	K_Offshore_40m_m1_054	Gammaproteobacteria bacterium	
+GCA_016874175.1	Contig	VGUP00000000	SAMN10966793	K_Offshore_120m_m2_034	Gammaproteobacteria bacterium	
+GCA_016874155.1	Contig	VGUX00000000	SAMN10966801	K_Offshore_40m_mx_227	Gammaproteobacteria bacterium	
+GCA_016874135.1	Contig	VGVE00000000	SAMN10966808	K_Offshore_80m_m1_177	Gammaproteobacteria bacterium	
+GCA_016874115.1	Contig	VGVA00000000	SAMN10966804	M_DeepCast_65m_m1_284	Gammaproteobacteria bacterium	
+GCA_016874095.1	Contig	VGVH00000000	SAMN10966811	K_Offshore_80m_m2_176	Gammaproteobacteria bacterium	
+GCA_016874075.1	Contig	VGVI00000000	SAMN10966812	K_Offshore_surface_m1_032	Gammaproteobacteria bacterium	
+GCA_016874055.1	Contig	VGVG00000000	SAMN10966810	K_Offshore_80m_m2_057	Gammaproteobacteria bacterium	
+GCA_016874035.1	Contig	VGVM00000000	SAMN10966816	K_Offshore_120m_m2_038	Gemmatimonadetes bacterium	
+GCA_016874005.1	Contig	VGVQ00000000	SAMN10966820	K_Offshore_80m_m1_181	Gemmatimonadetes bacterium	
+GCA_016873995.1	Contig	VGVR00000000	SAMN10966821	K_Offshore_80m_m2_041	Gemmatimonadetes bacterium	
+GCA_016873975.1	Contig	VGVK00000000	SAMN10966814	M_surface_7_m1_048	Gemmatimonadetes bacterium	
+GCA_016872455.1	Contig	VGZS00000000	SAMN10966927	M_DeepCast_400m_m2_225	Gemmatimonadetes bacterium	
+GCA_016871855.1	Contig	VHBQ00000000	SAMN10966977	M_DeepCast_65m_m1_262	Gemmatimonadetes bacterium	
+GCA_016871895.1	Contig	VHBO00000000	SAMN10966975	K_Offshore_40m_mx_046	Gemmatimonadetes bacterium	
+GCA_016871915.1	Contig	VHBP00000000	SAMN10966976	M_DeepCast_50m_m2_218	Gemmatimonadetes bacterium	
+GCA_016873895.1	Contig	VGVV00000000	SAMN10966825	M_surface_10_mx_236	Ignavibacteria bacterium	
+GCA_016873875.1	Contig	VGVW00000000	SAMN10966826	K_Offshore_0m_mx_139	Ignavibacteria bacterium	
+GCA_016873845.1	Contig	VGVX00000000	SAMN10966827	K_DeepCast_100m_m2_118	Ignavibacteria bacterium	
+GCA_016873835.1	Contig	VGVY00000000	SAMN10966828	K_DeepCast_100m_m2_176	Ignavibacteria bacterium	
+GCA_016873795.1	Contig	VGWA00000000	SAMN10966830	K_DeepCast_250m_m1_364	Ignavibacteria bacterium	
+GCA_016873805.1	Contig	VGVZ00000000	SAMN10966829	K_DeepCast_100m_m2_316	Ignavibacteria bacterium	
+GCA_016873775.1	Contig	VGWC00000000	SAMN10966832	M_DeepCast_65m_m1_282	Ignavibacteria bacterium	
+GCA_016873755.1	Contig	VGWB00000000	SAMN10966831	M_DeepCast_400m_m2_062	Ignavibacteria bacterium	
+GCA_016873735.1	Contig	VGWD00000000	SAMN10966833	K_Offshore_80m_m2_224	Ignavibacteria bacterium	
+GCA_016873695.1	Contig	VGWE00000000	SAMN10966834	K_DeepCast_100m_m2_241	Kiritimatiellaceae bacterium	
+GCA_016873675.1	Contig	VGWG00000000	SAMN10966836	M_DeepCast_200m_m2_085	Lentisphaerae bacterium	
+GCA_016873655.1	Contig	VGWI00000000	SAMN10966838	K_DeepCast_250m_m2_056	Lentisphaerae bacterium	
+GCA_016873635.1	Contig	VGWJ00000000	SAMN10966839	M_DeepCast_400m_m2_230	Lentisphaerae bacterium	
+GCA_016873715.1	Contig	VGWF00000000	SAMN10966835	K_DeepCast_100m_m2_028	Lentisphaerae bacterium	
+GCA_016873615.1	Contig	VGWX00000000	SAMN10966854	K_DeepCast_150m_m2_200	Nitrospira sp.	
+GCA_016873595.1	Contig	VGWZ00000000	SAMN10966856	K_DeepCast_250m_m1_045	Nitrospira sp.	
+GCA_016873575.1	Contig	VGWY00000000	SAMN10966855	M_DeepCast_200m_m2_046	Nitrospira sp.	
+GCA_016873555.1	Contig	VGXA00000000	SAMN10966857	K_DeepCast_300m_m2_067	Nitrospira sp.	
+GCA_016873525.1	Contig	VGXD00000000	SAMN10966860	M_DeepCast_65m_m2_186	Nitrospira sp.	
+GCA_016873515.1	Contig	VGXB00000000	SAMN10966858	M_DeepCast_50m_m2_151	Nitrospira sp.	
+GCA_016873495.1	Contig	VGXC00000000	SAMN10966859	M_DeepCast_65m_m2_155	Nitrospira sp.	
+GCA_016873455.1	Contig	VGXE00000000	SAMN10966861	M_DeepCast_65m_mx_150	Nitrospira sp.	
+GCA_016873435.1	Contig	VGXF00000000	SAMN10966862	K_Offshore_80m_m2_040	Nitrospira sp.	
+GCA_016873395.1	Contig	VGXG00000000	SAMN10966863	K_Offshore_80m_m2_121	Nitrospira sp.	
+GCA_016882165.1	Contig	VHBV00000000	SAMN10966982	M_surface_6_m2_121	Pelagibacterales bacterium	
+GCA_016882225.1	Contig	VHCA00000000	SAMN10966987	M_DeepCast_200m_m2_041	Pelagibacterales bacterium	
+GCA_016882185.1	Contig	VHCC00000000	SAMN10966989	K_Offshore_40m_m1_069	Pelagibacterales bacterium	
+GCA_016873375.1	Contig	VGXJ00000000	SAMN10966866	M_surface_10_m1_294	Phycisphaerae bacterium	
+GCA_016873355.1	Contig	VGXK00000000	SAMN10966867	K_Offshore_120m_m2_041	Phycisphaerae bacterium	
+GCA_016873335.1	Contig	VGXN00000000	SAMN10966870	M_DeepCast_65m_mx_236	Phycisphaerae bacterium	
+GCA_016873315.1	Contig	VGXL00000000	SAMN10966868	M_DeepCast_65m_m2_009	Phycisphaerae bacterium	
+GCA_016873295.1	Contig	VGXM00000000	SAMN10966869	M_DeepCast_65m_mx_077	Phycisphaerae bacterium	
+GCA_016873275.1	Contig	VGXO00000000	SAMN10966871	K_Offshore_80m_m2_006	Phycisphaerae bacterium	
+GCA_016873255.1	Contig	VGXR00000000	SAMN10966874	M_surface_10_m2_213	Planctomycetes bacterium	
+GCA_016873225.1	Contig	VGXS00000000	SAMN10966875	K_Offshore_0m_mx_037	Planctomycetes bacterium	
+GCA_016873215.1	Contig	VGXU00000000	SAMN10966877	K_DeepCast_100m_m1_307	Planctomycetes bacterium	
+GCA_016873195.1	Contig	VGXW00000000	SAMN10966879	K_DeepCast_100m_mx_218	Planctomycetes bacterium	
+GCA_016873165.1	Contig	VGXV00000000	SAMN10966878	K_DeepCast_100m_m2_328	Planctomycetes bacterium	
+GCA_016873155.1	Contig	VGXX00000000	SAMN10966880	M_DeepCast_100m_m2_243	Planctomycetes bacterium	
+GCA_016873135.1	Contig	VGXY00000000	SAMN10966881	M_DeepCast_100m_mx_241	Planctomycetes bacterium	
+GCA_016873115.1	Contig	VGYB00000000	SAMN10966884	K_Offshore_120m_m2_148	Planctomycetes bacterium	
+GCA_016873095.1	Contig	VGYC00000000	SAMN10966885	K_Offshore_120m_mx_222	Planctomycetes bacterium	
+GCA_016873065.1	Contig	VGYH00000000	SAMN10966890	M_DeepCast_200m_m2_025	Planctomycetes bacterium	
+GCA_016873055.1	Contig	VGYD00000000	SAMN10966886	K_DeepCast_150m_m2_127	Planctomycetes bacterium	
+GCA_016873035.1	Contig	VGYJ00000000	SAMN10966892	M_DeepCast_200m_mx_231	Planctomycetes bacterium	
+GCA_016873005.1	Contig	VGYG00000000	SAMN10966889	M_DeepCast_200m_m1_344	Planctomycetes bacterium	
+GCA_016872995.1	Contig	VGYK00000000	SAMN10966893	K_DeepCast_250m_m1_330	Planctomycetes bacterium	
+GCA_016872975.1	Contig	VGYL00000000	SAMN10966894	K_DeepCast_250m_m1_352	Planctomycetes bacterium	
+GCA_016872955.1	Contig	VGYP00000000	SAMN10966898	K_DeepCast_35m_m1_264	Planctomycetes bacterium	
+GCA_016872925.1	Contig	VGYR00000000	SAMN10966900	K_DeepCast_35m_m2_150	Planctomycetes bacterium	
+GCA_016872915.1	Contig	VGYQ00000000	SAMN10966899	K_DeepCast_35m_m2_037	Planctomycetes bacterium	
+GCA_016872895.1	Contig	VGYT00000000	SAMN10966902	M_DeepCast_400m_m2_048	Planctomycetes bacterium	
+GCA_016872875.1	Contig	VGYW00000000	SAMN10966905	M_DeepCast_400m_m2_341	Planctomycetes bacterium	
+GCA_016872855.1	Contig	VGYV00000000	SAMN10966904	M_DeepCast_400m_m2_195	Planctomycetes bacterium	
+GCA_016872835.1	Contig	VGYX00000000	SAMN10966906	K_Offshore_40m_m2_104	Planctomycetes bacterium	
+GCA_016872815.1	Contig	VGYY00000000	SAMN10966907	M_DeepCast_50m_m2_133	Planctomycetes bacterium	
+GCA_016872795.1	Contig	VGYZ00000000	SAMN10966908	M_DeepCast_50m_m2_137	Planctomycetes bacterium	
+GCA_016872775.1	Contig	VGZA00000000	SAMN10966909	K_DeepCast_65m_m1_055	Planctomycetes bacterium	
+GCA_016872755.1	Contig	VGZE00000000	SAMN10966913	M_DeepCast_65m_m2_181	Planctomycetes bacterium	
+GCA_016872725.1	Contig	VGZC00000000	SAMN10966911	M_DeepCast_65m_m2_011	Planctomycetes bacterium	
+GCA_016872715.1	Contig	VGZD00000000	SAMN10966912	M_DeepCast_65m_m2_061	Planctomycetes bacterium	
+GCA_016872695.1	Contig	VGZB00000000	SAMN10966910	M_DeepCast_65m_m1_287	Planctomycetes bacterium	
+GCA_016872675.1	Contig	VGZG00000000	SAMN10966915	K_Offshore_80m_m1_186	Planctomycetes bacterium	
+GCA_016872645.1	Contig	VGZH00000000	SAMN10966916	K_Offshore_80m_m2_029	Planctomycetes bacterium	
+GCA_016872635.1	Contig	VGZN00000000	SAMN10966922	K_Offshore_surface_mx_130	Planctomycetes bacterium	
+GCA_016872605.1	Contig	VGZI00000000	SAMN10966917	K_Offshore_80m_m2_128	Planctomycetes bacterium	
+GCA_016872595.1	Contig	VGZJ00000000	SAMN10966918	K_Offshore_80m_m2_185	Planctomycetes bacterium	
+GCA_016872575.1	Contig	VGZL00000000	SAMN10966920	K_Offshore_surface_m1_204	Planctomycetes bacterium	
+GCA_016872555.1	Contig	VGZO00000000	SAMN10966923	K_Offshore_surface_mx_256	Planctomycetes bacterium	
+GCA_016872535.1	Contig	VGZQ00000000	SAMN10966925	M_DeepCast_65m_m2_266	Rhodospirillales bacterium	
+GCA_016872515.1	Contig	VGZR00000000	SAMN10966926	K_Offshore_120m_m2_146	SAR202 cluster bacterium	
+GCA_016872495.1	Contig	VGZT00000000	SAMN10966928	M_DeepCast_50m_m2_018	SAR202 cluster bacterium	
+GCA_016872465.1	Contig	VGZU00000000	SAMN10966929	K_DeepCast_65m_m1_015	SAR202 cluster bacterium	
+GCA_016872435.1	Contig	VGZW00000000	SAMN10966931	K_Offshore_80m_m1_004	SAR202 cluster bacterium	
+GCA_016872415.1	Contig	VGZX00000000	SAMN10966932	K_Offshore_80m_m2_034	SAR202 cluster bacterium	
+GCA_016872385.1	Contig	VGZV00000000	SAMN10966930	K_DeepCast_65m_m2_033	SAR202 cluster bacterium	
+GCA_016872285.1	Contig	VGZZ00000000	SAMN10966934	K_Offshore_80m_m2_084	SAR202 cluster bacterium	
+GCA_016872355.1	Contig	VGZY00000000	SAMN10966933	K_Offshore_80m_m2_079	SAR202 cluster bacterium	
+GCA_016872335.1	Contig	VHAM00000000	SAMN10966947	M_surface_10_m2_039	Sphingomonadales bacterium	
+GCA_016872295.1	Contig	VHAF00000000	SAMN10966940	K_Offshore_0m_mx_046	Sphingomonadales bacterium	
+GCA_016872275.1	Contig	VHAP00000000	SAMN10966950	K_Offshore_120m_mx_094	Sphingomonadales bacterium	
+GCA_016872255.1	Contig	VHAR00000000	SAMN10966952	K_DeepCast_35m_m1_052	Sphingomonadales bacterium	
+GCA_016872225.1	Contig	VHAW00000000	SAMN10966957	M_DeepCast_50m_m2_146	Sphingomonadales bacterium	
+GCA_016872215.1	Contig	VHAX00000000	SAMN10966958	M_DeepCast_50m_m2_245	Sphingomonadales bacterium	
+GCA_016872195.1	Contig	VHAT00000000	SAMN10966954	K_Offshore_40m_m1_004	Sphingomonadales bacterium	
+GCA_016872175.1	Contig	VHBA00000000	SAMN10966961	M_surface_9_m1_271	Sphingomonadales bacterium	
+GCA_016872155.1	Contig	VHBB00000000	SAMN10966962	M_surface_9_m1_296	Sphingomonadales bacterium	
+GCA_016872125.1	Contig	VHBD00000000	SAMN10966964	K_Offshore_surface_m2_088	Sphingomonadales bacterium	
+GCA_016872115.1	Contig	VHBC00000000	SAMN10966963	M_surface_9_mx_199	Sphingomonadales bacterium	
+GCA_016872095.1	Contig	VHBE00000000	SAMN10966965	K_Offshore_surface_mx_261	Sphingomonadales bacterium	
+GCA_016872375.1	Contig	VHAO00000000	SAMN10966949	K_DeepCast_1200m_m2_124	Sphingomonadales bacterium	
+GCA_016872055.1	Contig	VHBH00000000	SAMN10966968	K_DeepCast_100m_mx_034	Thaumarchaeota archaeon	
+GCA_016872035.1	Contig	VHBJ00000000	SAMN10966970	M_DeepCast_50m_m1_060	Thaumarchaeota archaeon	
+GCA_016872015.1	Contig	VHBK00000000	SAMN10966971	M_DeepCast_65m_m1_070	Thaumarchaeota archaeon	
+GCA_016871995.1	Contig	VHBL00000000	SAMN10966972	K_DeepCast_65m_m2_187	Thaumarchaeota archaeon	
+GCA_016871975.1	Contig	VHBM00000000	SAMN10966973	K_Offshore_80m_m1_039	Thaumarchaeota archaeon	
+GCA_016871955.1	Contig	VHBN00000000	SAMN10966974	K_Offshore_80m_m2_203	Thaumarchaeota archaeon	
+GCA_016876055.1	Contig	VHDM00000000	SAMN10967025	K_Offshore_surface_mx_210	Verrucomicrobia bacterium	
+GCA_016871445.1	Contig	VHDH00000000	SAMN10967020	K_Offshore_80m_m2_222	Verrucomicrobia bacterium	
+GCA_016871415.1	Contig	VHDL00000000	SAMN10967024	M_surface_9_m2_112	Verrucomicrobia bacterium	
+GCA_016871805.1	Contig	VHCG00000000	SAMN10966993	K_DeepCast_0m_m1_144	Verrucomicrobia bacterium	
+GCA_016871785.1	Contig	VHCP00000000	SAMN10967002	M_DeepCast_200m_mx_295	Verrucomicrobia bacterium	
+GCA_016871775.1	Contig	VHCI00000000	SAMN10966995	M_DeepCast_100m_m1_317	Verrucomicrobia bacterium	
+GCA_016871755.1	Contig	VHCJ00000000	SAMN10966996	M_DeepCast_100m_m1_323	Verrucomicrobia bacterium	
+GCA_016871725.1	Contig	VHCL00000000	SAMN10966998	M_surface_10_m1_278	Verrucomicrobia bacterium	
+GCA_016871715.1	Contig	VHCO00000000	SAMN10967001	K_DeepCast_150m_m2_164	Verrucomicrobia bacterium	
+GCA_016871685.1	Contig	VHCM00000000	SAMN10966999	M_surface_10_m2_023	Verrucomicrobia bacterium	
+GCA_016871675.1	Contig	VHCN00000000	SAMN10967000	K_Offshore_120m_m2_058	Verrucomicrobia bacterium	
+GCA_016871655.1	Contig	VHCR00000000	SAMN10967004	K_DeepCast_35m_m1_007	Verrucomicrobia bacterium	
+GCA_016871615.1	Contig	VHCX00000000	SAMN10967010	K_Offshore_40m_m1_220	Verrucomicrobia bacterium	
+GCA_016871595.1	Contig	VHCY00000000	SAMN10967011	K_Offshore_40m_m2_239	Verrucomicrobia bacterium	
+GCA_016871605.1	Contig	VHCT00000000	SAMN10967006	K_DeepCast_35m_m2_191	Verrucomicrobia bacterium	
+GCA_016871575.1	Contig	VHCW00000000	SAMN10967009	M_DeepCast_400m_m2_235	Verrucomicrobia bacterium	
+GCA_016871555.1	Contig	VHDA00000000	SAMN10967013	M_DeepCast_65m_m2_010	Verrucomicrobia bacterium	
+GCA_016871535.1	Contig	VHCZ00000000	SAMN10967012	M_DeepCast_65m_m2_001	Verrucomicrobia bacterium	
+GCA_016871515.1	Contig	VHDE00000000	SAMN10967017	K_Offshore_80m_m1_157	Verrucomicrobia bacterium	
+GCA_016871495.1	Contig	VHDF00000000	SAMN10967018	K_Offshore_80m_m1_165	Verrucomicrobia bacterium	
+GCA_016871475.1	Contig	VHDG00000000	SAMN10967019	K_Offshore_80m_m2_019	Verrucomicrobia bacterium	
+GCA_016873405.1	Contig	VGXH00000000	SAMN10966864	K_DeepCast_100m_m2_307	bacterium	
+GCA_016873475.1	Contig	VGXI00000000	SAMN10966865	K_DeepCast_100m_m2_321	bacterium	
+GCA_016867745.1	Contig	VGIT00000000	SAMN10966484	K_DeepCast_250m_m1_105	candidate division WOR-3 bacterium	
+GCA_016867815.1	Contig	VGIR00000000	SAMN10966482	K_DeepCast_150m_m2_040	candidate division WOR-3 bacterium	
+GCA_016867755.1	Contig	VGIU00000000	SAMN10966485	M_DeepCast_400m_m1_356	candidate division WOR-3 bacterium	
+GCA_016867785.1	Contig	VGIS00000000	SAMN10966483	K_DeepCast_150m_m2_307	candidate division WOR-3 bacterium	
+GCA_016867335.1	Contig	VGJU00000000	SAMN10966511	K_Offshore_80m_m2_058	candidate division Zixibacteria bacterium	
