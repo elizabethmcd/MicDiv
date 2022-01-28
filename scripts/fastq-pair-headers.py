@@ -18,6 +18,9 @@
 
 # Where quality score header is just a + but this script changes the header format to be consistent between the sequence header and the quality score header
 
+# Clock at approximately 10 minutes for a medium size FASTQ file (~25GB)
+# Feed to repair.sh in BBtools for interleaving the two paired end files for easier distribution downstream
+
 import argparse
 import gzip
 
