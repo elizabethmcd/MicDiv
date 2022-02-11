@@ -29,3 +29,33 @@ biogas_samples_genome_counts <- biogas_genomes_table %>%
   arrange(desc(n))
 
 write.csv(biogas_samples_genome_counts, "metadata/AD_Biogas/AD-biogas-samples-genomes-counts.csv", row.names = FALSE, quote = FALSE)
+
+# Selecting genomes from the German Biogas facilities (8 metagenomes)
+
+german_biogas_genomes <- biogas_genomes_table %>% filter(sample == "AS20ysBPTH" | sample == "AS21ysBPME" | sample == "AS22ysBPME" | sample == "AS23ysBPME") %>% 
+  select(genome, gtdb_classification, completeness, contamination, size_bp, GC) %>% 
+  drop_na()
+
+german_biogas_genomes$isolate <- gsub("METABAT_", "", german_biogas_genomes$genome)
+
+# Selecting genomes from Ziels ACSIP experiment 
+
+ziels_acsip_genomes <- biogas_genomes_table %>% 
+  filter(sample == "AS06rmzACSIP") %>% 
+  select(genome, gtdb_classification, completeness, contamination, size_bp, GC) %>% 
+  drop_na()
+
+ziels_acsip_genomes$isolate <- gsub("METABAT_", "", ziels_acsip_genomes$genome)
+
+# combine with metadata from NCBI with genbank accessions to get the correct genomes to the correct datasets
+
+ncbi_bioproject_details <- read_tsv("metadata/AD_Biogas/PRJNA602310_AssemblyDetails.txt") %>% 
+  select(Assembly, Isolate) %>% 
+  mutate(isolate = Isolate) %>% 
+  select(Assembly, isolate)
+
+# german biogas isolates/genbank names 
+german_biogas_genomes_table <- left_join(german_biogas_genomes, ncbi_bioproject_details)
+
+# ad sip isolates/genbank names
+ziels_acsip_genomes_table <- left_join(ziels_acsip_genomes, ncbi_bioproject_details)
