@@ -7,10 +7,9 @@ name=$1
 fasta=all-$name-bins.fasta
 scaffolds=$name-stb.tsv
 
-# Append genome name to scaffolds file for each bin, combine into one file
-for file in *.fa; do GENOME=`basename ${file%.fa}`; sed -i "s|^>|>${GENOME}~|" $file; done
+# Concatenate all genomes in the fastas directory (already reformatted with genome name appended)
 
-cat *.fa > $fasta
+cat fastas/*.fa > $fasta
 
 # make list of scaffold-to-bins pairings
 # for use with InStrain's genome_wide workflow to profile genome wide SNPs and covg
