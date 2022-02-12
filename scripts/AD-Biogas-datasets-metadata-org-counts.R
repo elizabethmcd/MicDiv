@@ -55,7 +55,19 @@ ncbi_bioproject_details <- read_tsv("metadata/AD_Biogas/PRJNA602310_AssemblyDeta
   select(Assembly, isolate)
 
 # german biogas isolates/genbank names 
-german_biogas_genomes_table <- left_join(german_biogas_genomes, ncbi_bioproject_details)
+german_biogas_genomes_table <- left_join(german_biogas_genomes, ncbi_bioproject_details) %>% 
+  mutate(Assembly = paste(Assembly, "fa", sep=".")) 
+
+german_biogas_assemblies <- german_biogas_genomes_table %>% 
+  select(Assembly)
+
+write_tsv(german_biogas_assemblies, "metadata/AD_Biogas/german_biogas_assemblies.tsv", col_names = FALSE)
 
 # ad sip isolates/genbank names
 ziels_acsip_genomes_table <- left_join(ziels_acsip_genomes, ncbi_bioproject_details)
+
+ziels_acsip_assemblies <- ziels_acsip_genomes_table %>% 
+  select(Assembly)
+
+write_tsv(ziels_acsip_assemblies, "metadata/AD_Biogas/ziels_acsip_assemblies.tsv", col_names = FALSE)
+
