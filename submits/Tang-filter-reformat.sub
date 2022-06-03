@@ -1,0 +1,15 @@
+##############################
+# Tang filter reformat 
+##############################
+
+executable = /home/GLBRCORG/emcdaniel/MicDiv/executables/filter-reformat.sh
+
+request_cpus = 6
+request_memory = 50GB
+arguments = $(fastq)
+
+output = /home/GLBRCORG/emcdaniel/MicDiv/outs/$(Cluster)_$(Process)_Tang_filter.out
+error = /home/GLBRCORG/emcdaniel/MicDiv/errs/$(Cluster)_$(Process)_Tang_filter.err
+log = /home/GLBRCORG/emcdaniel/MicDiv/logs/$(Cluster)_$(Process)_Tang_filter.log
+
+queue fastq from queues/tang-metagenomes.txt
