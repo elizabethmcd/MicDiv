@@ -1,0 +1,15 @@
+##############################
+# Zymo mapping and profiling queues
+##############################
+
+executable = /home/GLBRCORG/emcdaniel/MicDiv/executables/zymo_mock_mapping_profiling.sh
+
+request_cpus = 10
+request_memory = 150GB
+arguments = $(reads)
+
+output = /home/GLBRCORG/emcdaniel/MicDiv/outs/$(Cluster)_$(Process)_zymo_mapping.out
+error = /home/GLBRCORG/emcdaniel/MicDiv/errs/$(Cluster)_$(Process)_zymo_mapping.err
+log = /home/GLBRCORG/emcdaniel/MicDiv/logs/$(Cluster)_$(Process)_zymo_mapping.log
+
+queue reads from queues/zymo_metagenomes.txt
