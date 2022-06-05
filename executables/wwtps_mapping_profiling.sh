@@ -10,18 +10,18 @@ PYTHONPATH=''
 # arguments
 reads=$1
 r1_file=$(basename $reads)
-r2_file=$(basename $reads _1.fastq_qced_ref_R1.fastq)_2.fastq_qced_ref_R2.fastq
-samplename=$(basename $reads _1.fastq_qced_ref_R1.fastq)
+r2_file=$(basename $reads _1.ref.qced.fastq)_2.ref.qced.fastq
+samplename=$(basename $reads _1.ref.qced.fastq)
 
 # paths 
 project_path="/home/GLBRCORG/emcdaniel/MicDiv/datasets"
 dataset_path="${project_path}/Danish_WWTPs" #dataset specific
 reads_path="${dataset_path}/reformatted_reads"
 mapping_path="${dataset_path}/mappingResults"
-ref_path="${dataset_path}/ref_genomes/bt2/all-tangy-bins.fasta" #dataset specific
+ref_path="${dataset_path}/ref_genomes/bt2/all-wwtp-genomes.fasta" #dataset specific
 profile_path="${dataset_path}/profiles"
-stb_path="${dataset_path}/ref_genomes/tangy-stb.tsv" #dataset specific
-fasta_path="${dataset_path}/ref_genomes/all-tangy-bins.fasta" #dataset specific
+stb_path="${dataset_path}/ref_genomes/danish-wwtps.stb" #dataset specific
+fasta_path="${dataset_path}/ref_genomes/all-wwtp-genomes.fasta" #dataset specific
 
 # go to mapping folder
 cd ${mapping_path}
@@ -37,8 +37,6 @@ samtools index $samplename.sorted.bam $samplename.sorted.bam.bai
 # cleanup
 mv *.sorted.bam ../sorted_bams
 mv *.sorted.bam.bai ../sorted_bams
-rm -rf *.bam
-rm -rf *.sam
 
 # deactivate and activate inStrain for profiling each sorted BAM sample file
 source deactivate

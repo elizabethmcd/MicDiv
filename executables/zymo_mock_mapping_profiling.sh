@@ -37,8 +37,6 @@ samtools index $samplename.sorted.bam $samplename.sorted.bam.bai
 # cleanup
 mv *.sorted.bam ../sorted_bams
 mv *.sorted.bam.bai ../sorted_bams
-rm -rf *.bam
-rm -rf *.sam
 
 # deactivate and activate inStrain for profiling each sorted BAM sample file
 source deactivate

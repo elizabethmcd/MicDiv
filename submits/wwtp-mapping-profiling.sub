@@ -1,0 +1,15 @@
+##############################
+# wwtp mapping and profiling queues
+##############################
+
+executable = /home/GLBRCORG/emcdaniel/MicDiv/executables/wwtps_mapping_profiling.sh
+
+request_cpus = 10
+request_memory = 200GB
+arguments = $(reads)
+
+output = /home/GLBRCORG/emcdaniel/MicDiv/outs/$(Cluster)_$(Process)_wwtp_mapping.out
+error = /home/GLBRCORG/emcdaniel/MicDiv/errs/$(Cluster)_$(Process)_wwtp_mapping.err
+log = /home/GLBRCORG/emcdaniel/MicDiv/logs/$(Cluster)_$(Process)_wwtp_mapping.log
+
+queue reads from queues/wwtp_metagenomes.txt

@@ -15,13 +15,13 @@ samplename=$(basename $reads _1.fastq_qced_ref_R1.fastq)
 
 # paths 
 project_path="/home/GLBRCORG/emcdaniel/MicDiv/datasets"
-dataset_path="${project_path}/Tanganyika" #dataset specific
+dataset_path="${project_path}/Permafrost_Woodcroft" #dataset specific
 reads_path="${dataset_path}/reformatted_reads"
 mapping_path="${dataset_path}/mappingResults"
-ref_path="${dataset_path}/ref_genomes/bt2/all-tangy-bins.fasta" #dataset specific
+ref_path="${dataset_path}/ref_genomes/bt2/all-permafrost-bins.fasta" #dataset specific
 profile_path="${dataset_path}/profiles"
-stb_path="${dataset_path}/ref_genomes/tangy-stb.tsv" #dataset specific
-fasta_path="${dataset_path}/ref_genomes/all-tangy-bins.fasta" #dataset specific
+stb_path="${dataset_path}/ref_genomes/permafrost-stb.tsv" #dataset specific
+fasta_path="${dataset_path}/ref_genomes/all-permafrost-bins.fasta" #dataset specific
 
 # go to mapping folder
 cd ${mapping_path}

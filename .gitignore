@@ -1,3 +1,4 @@
+*.icloud
 figs/
 results/*
 reference_genomes/*

@@ -1,0 +1,15 @@
+##############################
+# aquifer mapping and profiling queues
+##############################
+
+executable = /home/GLBRCORG/emcdaniel/MicDiv/executables/aquifer_mapping_profiling.sh
+
+request_cpus = 10
+request_memory = 200GB
+arguments = $(reads)
+
+output = /home/GLBRCORG/emcdaniel/MicDiv/outs/$(Cluster)_$(Process)_aquifer_mapping.out
+error = /home/GLBRCORG/emcdaniel/MicDiv/errs/$(Cluster)_$(Process)_aquifer_mapping.err
+log = /home/GLBRCORG/emcdaniel/MicDiv/logs/$(Cluster)_$(Process)_aquifer_mapping.log
+
+queue reads from queues/aquifer_metagenomes.txt
