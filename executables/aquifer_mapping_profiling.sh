@@ -10,8 +10,8 @@ PYTHONPATH=''
 # arguments
 reads=$1
 r1_file=$(basename $reads)
-r2_file=$(basename $reads _1.fastq_qced_ref_R1.fastq)_2.fastq_qced_ref_R2.fastq
-samplename=$(basename $reads _1.fastq_qced_ref_R1.fastq)
+r2_file=$(basename $reads _1.fastq.qced.ref.modf.fastq)_2.fastq.qced.ref.modf.fastq
+samplename=$(basename $reads _1.fastq.qced.ref.modf.fastq)
 
 # paths 
 project_path="/home/GLBRCORG/emcdaniel/MicDiv/datasets"
