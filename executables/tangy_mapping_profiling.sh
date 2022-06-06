@@ -34,10 +34,6 @@ samtools view -S -b  $samplename.sam > $samplename.bam
 samtools sort  $samplename.bam -o $samplename.sorted.bam
 samtools index $samplename.sorted.bam $samplename.sorted.bam.bai
 
-# cleanup
-mv *.sorted.bam ../sorted_bams
-mv *.sorted.bam.bai ../sorted_bams
-
 # deactivate and activate inStrain for profiling each sorted BAM sample file
 source deactivate
 
@@ -45,9 +41,6 @@ export PATH=/home/GLBRCORG/emcdaniel/anaconda3/bin:$PATH
 unset PYTHONPATH
 source activate inStrain
 PYTHONPATH=''
-
-# move to sorted bams folder
-cd ../sorted_bams 
 
 # profile command 
 
