@@ -6,7 +6,7 @@ for file in *_1.fastq_qced_ref_R1.fastq; do
 done
 
 for file in *_2.fastq_qced_ref_R2.fastq; do
-	name=$(basename $file *_2.fastq_qced_ref_R2.fastq);
+	name=$(basename $file _2.fastq_qced_ref_R2.fastq);
 	sed 's/ 2:N:0//' $file > ${name}_2.fastq.qced.ref.modf.fastq;
 done
 	
