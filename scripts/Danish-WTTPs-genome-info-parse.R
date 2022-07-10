@@ -1,4 +1,7 @@
 library(tidyverse)
+library(viridis)
+library(cowplot)
+library(ggpubr)
 
 ####################################  
 # inStrain profile genome info for all high-coverage genome:sample pairs in the Danish WWTPs dataset
@@ -52,14 +55,25 @@ above_5_samples <- danish_wwtps_div_info %>%
   filter(n > 5) %>% # select those genomes that are present in 5 or more samples
   pull(genome)
 
+above_3_samples <- danish_wwtps_div_info %>% 
+  count(genome, phylum) %>% 
+  arrange(desc(n)) %>% 
+  filter(n > 3) %>% # select those genomes that are present in 3 or more samples
+  pull(genome)
+
 top_10_lineages <- danish_wwtps_div_info %>% 
   count(genome, phylum) %>% 
   arrange(desc(n)) %>% 
+  mutate(genome = gsub(".fa", "", genome)) %>% 
   top_n(10, n) %>% 
   pull(genome)
 
 danish_wwtps_div_info %>% 
   filter(genome %in% above_5_samples) %>% 
+  ggplot(aes(x=r2_mean, y=nucl_diversity)) + geom_point(aes(color=phylum)) + facet_wrap(~ sample)
+
+danish_wwtps_div_info %>% 
+  filter(genome %in% above_3_samples) %>% 
   ggplot(aes(x=r2_mean, y=nucl_diversity)) + geom_point(aes(color=phylum)) + facet_wrap(~ sample)
 
 danish_wwtps_div_info %>% 
@@ -73,9 +87,77 @@ danish_wwtps_div_info %>%
   filter(genome %in% above_5_samples) %>% 
   ggplot(aes(x=sample, y=nucl_diversity)) + geom_point(aes(color=phylum)) + facet_wrap(~ gtdb)
 
-danish_wwtps_top10_div <- danish_wwtps_div_info %>% 
+species_labels <- labeller(genome = gtdb)
+
+danish_div_top_species <- danish_wwtps_div_info %>% 
+  mutate(genome = gsub(".fa", "", genome)) %>% 
   mutate(sample = gsub("_.*", "", sample)) %>% 
   filter(genome %in% top_10_lineages) %>% 
-  ggplot(aes(x=sample, y=nucl_diversity)) + geom_point(aes(color=phylum)) + facet_wrap(~ gtdb, ncol=2) + theme_bw() + theme(legend.position = "bottom")
+  ggplot(aes(x=sample, y=nucl_diversity)) + 
+  geom_point(aes(color=phylum), size=3) + 
+  facet_wrap(gtdb ~ genome, ncol=2, labeller = function(df) {
+    list(as.character(df[,1]))
+  }) + 
+  theme_bw() + 
+  theme(legend.position = "bottom", axis.text.x= element_text(angle=85, hjust=1)) +
+  scale_y_continuous(expand=c(0, .005))
+
+danish_div_top_species
+
+danish_wwtps_top10_div
 
 ggsave("figs/Danish-WWTPs-Top10-diversity.png", danish_wwtps_top10_div, width=18, height=7, units=c("in"))
+
+ggsave("figs/Danish_WWTPs-top-species-diversity-samples.png", danish_div_top_species, width=25, height=35, units=c("cm"))
+
+# compare to relative abundance for lineages of interest 
+danish_wwtps_relative_abundance <- read.csv("results/Danish_WWTPs/Danish-WTTPs-relative-abundance.csv")
+
+colnames(danish_wwtps_relative_abundance) <- sub("_.*", "", colnames(danish_wwtps_relative_abundance))
+
+top10_rel_abund <- danish_wwtps_relative_abundance %>% 
+  filter(Genome %in% top_10_lineages) %>% 
+  select(Genome, Hirt, Hjor, AalE, AalW, Mari, Skiv, Vibo, Rand, Ega, Viby, EsbE, EsbW, Fred, Ribe, Hade, OdNW, Ejby, OdNE, Lyne, Damh, Aved) %>% 
+  pivot_longer(-Genome, names_to="wwtp", values_to="relative_abundance") %>% 
+  mutate(genome = Genome) %>% 
+  select(-Genome)
+
+danish_names <- danish_mags_metadata %>% 
+  mutate(genome = gsub(".fa", "", genome)) %>% 
+  select(genome, taxonomy)
+
+top10_rel_abund_info <- left_join(top10_rel_abund, danish_names) %>% 
+  select(genome, taxonomy, wwtp, relative_abundance)
+
+relative_abundance_plot <- top10_rel_abund_info %>% 
+  ggplot(aes(x=as_factor(wwtp), y=genome, fill=relative_abundance)) +
+  geom_tile(color="white") +
+  scale_fill_viridis(option="magma", alpha=1, begin=0, end=1, direction=-1) + theme(axis.text.x= element_text(angle=85, hjust=1))
+
+plot_grid(relative_abundance_plot, danish_div_top_species, ncol=1)
+
+# Aggregate mean nucl diversity for each genome, genome has to be present in at least 3 samples to calculate the average 
+
+genomes3 <- danish_wwtps_div_info %>% 
+  count(genome, phylum) %>% 
+  arrange(desc(n)) %>% 
+  filter(n >= 3) %>% 
+  pull(genome)
+
+avg_nucl_diversity3 <- danish_wwtps_div_info %>% 
+  filter(genome %in% genomes3) %>% 
+  select(genome, nucl_diversity, phylum) %>% 
+  group_by(genome) %>% 
+  summarise_at(vars(-phylum), funs(mean(., na.rm=TRUE))) %>% 
+  mutate(avg_nucl_diversity = nucl_diversity) %>% 
+  select(genome, avg_nucl_diversity) %>% 
+  left_join(danish_wwtps_div_info) %>% 
+  select(genome, sample, avg_nucl_diversity, phylum)
+
+avg_nucl_diversity3 %>% 
+  ggplot(aes(x=sample, y=avg_nucl_diversity, fill=phylum)) +
+  geom_boxplot()
+  
+avg_nucl_diversity3 %>% 
+  ggplot(aes(x=phylum, y=avg_nucl_diversity)) + 
+  geom_boxplot()

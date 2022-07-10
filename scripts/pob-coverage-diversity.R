@@ -33,3 +33,5 @@ pob_div_filtered <- pob_div %>%
   separate(filename, into=c("org", "sample"), "-vs-") %>% 
   select(genome, sample, coverage, breadth, nucl_diversity, r2_mean, d_prime_mean) %>% 
   mutate(sample = gsub(".IS_genome_info.tsv", "", sample))
+
+write.csv(pob_div_filtered, "results/POB/POB-div-table.csv", quote=FALSE, row.names = FALSE)
