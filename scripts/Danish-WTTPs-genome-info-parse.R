@@ -99,7 +99,7 @@ danish_div_top_species <- danish_wwtps_div_info %>%
   filter(genome %in% top_10_lineages) %>% 
   mutate(gtdb = gsub("d__Bacteria;", "", gtdb)) %>% 
   ggplot(aes(x=as_factor(sample), y=nucl_diversity)) + 
-  geom_point(aes(color=phylum), size=2.5) + 
+  geom_point(aes(color=phylum), size=1.5) + 
   facet_wrap(gtdb ~ genome, ncol=1, labeller = function(df) {
     list(as.character(df[,1]))
   }) + 
@@ -136,14 +136,39 @@ danish_names <- danish_mags_metadata %>%
 top10_rel_abund_info <- left_join(top10_rel_abund, danish_names) %>% 
   select(genome, taxonomy, wwtp, relative_abundance)
 
-relative_abundance_plot <- top10_rel_abund_info %>% 
-  ggplot(aes(x=as_factor(wwtp), y=genome, fill=relative_abundance)) +
-  geom_tile(color="white") +
-  scale_fill_viridis(option="magma", alpha=1, begin=0, end=1, direction=-1, expand=c(0,0)) + theme(axis.text.x= element_text(angle=85, hjust=1), legend.position="bottom") +
-  scale_y_discrete(expand=c(0,0)) +
-  scale_x_discrete(expand=c(0,0))
+View(top10_rel_abund_info)
 
-danish_abund_div_grid <- plot_grid(relative_abundance_plot, danish_div_top_species, ncol=2, align="h", axis="b", rel_widths=c(1.8, 2), labels=c("A","B"))
+genome_levels <- c("AalE_18-Q3-R2-46_BATAC.579", 
+                   "Ejby_18-Q3-R6-50_BAT3C.200", 
+                   "Ega_18-Q3-R5-49_BAT3C.193", 
+                   "Ejby_18-Q3-R6-50_MAXAC.192", 
+                   "Rand_18-Q3-R56-63_MAXAC.001", 
+                   "Skiv_18-Q3-R9-52_BAT3C.176", 
+                   "EsbW_18-Q3-R4-48_MAXAC.006_sub", 
+                   "OdNE_18-Q3-R46-58_BAT3C.305",
+                   "Skiv_18-Q3-R9-52_MAXAC.078_sub", 
+                   "EsbE_18-Q3-R3-47_MAXAC.059", 
+                   "Bjer_18-Q3-R1-45_MAXAC.014", 
+                   "Hjor_18-Q3-R7-51_MAXAC.006" 
+                   )
+
+top10_rel_abund_info$genome <- factor(top10_rel_abund_info$genome, levels=genome_levels)
+
+relative_abundance_plot <- top10_rel_abund_info %>% 
+  ggplot(aes(x=as_factor(wwtp), y=fct_rev(genome), fill=relative_abundance)) +
+  geom_tile(color="white") +
+  scale_fill_viridis(option="magma", alpha=1, begin=0, end=1, direction=-1, expand=c(0,0)) + theme(axis.text.x= element_text(angle=85, hjust=1), legend.position="bottom", axis.text.y=element_blank(), axis.ticks.y=element_blank(), axis.title.y=element_blank()) +
+  scale_y_discrete(expand=c(0,0)) +
+  scale_x_discrete(expand=c(0,0)) +
+  xlab("WWTP Sample")
+
+relative_abundance_plot
+
+# grid figures 
+
+danish_abund_div_grid <- plot_grid(danish_div_top_species,relative_abundance_plot, ncol=2, align="h", axis="b", rel_widths=c(2,1.2), labels=c("A","B"))
+
+danish_abund_div_grid
 
 ggsave("figs/danish_abund_div_grid.png", danish_abund_div_grid, width=30, height=25, units=c("cm"))
 
