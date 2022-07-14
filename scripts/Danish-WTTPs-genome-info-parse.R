@@ -37,6 +37,7 @@ danish_wwtps_div_info <- left_join(danish_wwtps_div_table, danish_mags_metadata)
 
 danish_wwtps_div_info$sample <- gsub(".IS_genome_info.tsv", "", danish_wwtps_div_info$sample)
 danish_wwtps_div_info$phylum <- gsub(";.*", "", danish_wwtps_div_info$phylum)
+danish_wwtps_div_info$sample <- gsub("_.*", "", danish_wwtps_div_info$sample)
 
 # plotting diversity and r2/D' by sample 
 danish_wwtps_div_info %>% ggplot(aes(x=sample, y=nucl_diversity)) + geom_point(aes(color=phylum))
@@ -89,18 +90,24 @@ danish_wwtps_div_info %>%
 
 species_labels <- labeller(genome = gtdb)
 
+wwtps_levels <- c("Hirt", "Hjor", "AalE", "AalW", "Mari", "Skiv", "Vibo", "Rand", "Ega", "Viby", "EsbE", "EsbW", "Fred", "Ribe", "Hade", "OdNW", "Ejby", "OdNE", "Lyne", "Damh", "Aved")
+danish_wwtps_div_info$sample <- factor(danish_wwtps_div_info$sample, levels=wwtps_levels)
+
+
 danish_div_top_species <- danish_wwtps_div_info %>% 
-  mutate(genome = gsub(".fa", "", genome)) %>% 
-  mutate(sample = gsub("_.*", "", sample)) %>% 
+  mutate(genome = gsub(".fa", "", genome)) %>%
   filter(genome %in% top_10_lineages) %>% 
-  ggplot(aes(x=sample, y=nucl_diversity)) + 
-  geom_point(aes(color=phylum), size=3) + 
-  facet_wrap(gtdb ~ genome, ncol=2, labeller = function(df) {
+  mutate(gtdb = gsub("d__Bacteria;", "", gtdb)) %>% 
+  ggplot(aes(x=as_factor(sample), y=nucl_diversity)) + 
+  geom_point(aes(color=phylum), size=2.5) + 
+  facet_wrap(gtdb ~ genome, ncol=1, labeller = function(df) {
     list(as.character(df[,1]))
   }) + 
   theme_bw() + 
-  theme(legend.position = "bottom", axis.text.x= element_text(angle=85, hjust=1)) +
-  scale_y_continuous(expand=c(0, .005))
+  theme(legend.position = "bottom", axis.text.x= element_text(angle=85, hjust=1), strip.text=element_text(size=6.5)) +
+  scale_y_continuous(expand=c(0, .005)) +
+  xlab("WWTP Sample") +
+  ylab("Nucleotide Diversity of Species in WWTP Sample")
 
 danish_div_top_species
 
@@ -132,9 +139,13 @@ top10_rel_abund_info <- left_join(top10_rel_abund, danish_names) %>%
 relative_abundance_plot <- top10_rel_abund_info %>% 
   ggplot(aes(x=as_factor(wwtp), y=genome, fill=relative_abundance)) +
   geom_tile(color="white") +
-  scale_fill_viridis(option="magma", alpha=1, begin=0, end=1, direction=-1) + theme(axis.text.x= element_text(angle=85, hjust=1))
+  scale_fill_viridis(option="magma", alpha=1, begin=0, end=1, direction=-1, expand=c(0,0)) + theme(axis.text.x= element_text(angle=85, hjust=1), legend.position="bottom") +
+  scale_y_discrete(expand=c(0,0)) +
+  scale_x_discrete(expand=c(0,0))
 
-plot_grid(relative_abundance_plot, danish_div_top_species, ncol=1)
+danish_abund_div_grid <- plot_grid(relative_abundance_plot, danish_div_top_species, ncol=2, align="h", axis="b", rel_widths=c(1.8, 2), labels=c("A","B"))
+
+ggsave("figs/danish_abund_div_grid.png", danish_abund_div_grid, width=30, height=25, units=c("cm"))
 
 # Aggregate mean nucl diversity for each genome, genome has to be present in at least 3 samples to calculate the average 
 
@@ -147,17 +158,21 @@ genomes3 <- danish_wwtps_div_info %>%
 avg_nucl_diversity3 <- danish_wwtps_div_info %>% 
   filter(genome %in% genomes3) %>% 
   select(genome, nucl_diversity, phylum) %>% 
-  group_by(genome) %>% 
-  summarise_at(vars(-phylum), funs(mean(., na.rm=TRUE))) %>% 
-  mutate(avg_nucl_diversity = nucl_diversity) %>% 
-  select(genome, avg_nucl_diversity) %>% 
-  left_join(danish_wwtps_div_info) %>% 
-  select(genome, sample, avg_nucl_diversity, phylum)
+  group_by(genome, phylum) %>% 
+  summarize(mean_pi = mean(nucl_diversity))
+
+danish_wwtps_div_info %>% 
+  filter(genome %in% genomes3) %>% 
+  ggplot(aes(x=phylum, y=nucl_diversity)) +
+  geom_boxplot() +
+  geom_jitter() +
+  facet_wrap(~ sample, nrow=3, scales="free_x")
 
 avg_nucl_diversity3 %>% 
-  ggplot(aes(x=sample, y=avg_nucl_diversity, fill=phylum)) +
-  geom_boxplot()
+  ggplot(aes(x=phylum, y=mean_pi, fill=phylum)) +
+  geom_boxplot() +
+  geom_jitter() +
+  theme_bw()+
+  theme(axis.text.x= element_text(angle=85, hjust=1), legend.position="top", axis.title.x=element_blank(), axis.title.y=element_text(face="bold"))
   
-avg_nucl_diversity3 %>% 
-  ggplot(aes(x=phylum, y=avg_nucl_diversity)) + 
-  geom_boxplot()
+

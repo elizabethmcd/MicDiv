@@ -1,4 +1,7 @@
 library(tidyverse)
+library(cowplot)
+library(viridis)
+library(ggpubr)
 
 # All datasets diversity 
 # Plotting the average nucleotide diversity of a lineage in all samples in that dataset, and plotting those datasets side by side to compare population diversity in different types of environments
@@ -122,11 +125,16 @@ all_datasets_mean_pi_phyla %>%
   ggplot(aes(x=phylum, y=mean_pi, fill=dataset)) +
   geom_boxplot()
 
-all_datasets_mean_pi_phyla %>% 
+phyla_div <- all_datasets_mean_pi_phyla %>% 
   filter(phylum %in% all_top_phyla) %>% 
-  ggplot(aes(x=dataset, y=mean_pi)) +
-  facet_wrap(~ phylum, nrow=1) +
-  geom_boxplot()
+  ggplot(aes(x=dataset, y=mean_pi)) + 
+  geom_boxplot(aes(fill=dataset),outlier.shape = NA, position=position_dodge(1)) +
+  facet_wrap(~ phylum, nrow=1, scales = "free_x") +
+  geom_jitter(alpha=.5) +
+  theme_bw() +
+  theme(axis.text.x= element_text(angle=85, hjust=1), legend.position="top", axis.title.x=element_blank(), axis.title.y=element_text(face="bold")) +
+  ylab("Average Nucleotide Diversity \n of Species Across Samples")
+phyla_div
 
 # genera 
 all_datasets_mean_pi_genus <- rbind(abigail_div_final_info_genus, pob_div_final_info_genus, r1r2_div_final_info_genus, danish_wwtps_div_final_info_genus)
@@ -144,3 +152,50 @@ all_datasets_mean_pi_genus %>%
   ggplot(aes(x=dataset, y=mean_pi)) +
   facet_wrap(~ genus) +
   geom_boxplot()
+
+reactors_genera <- all_datasets_mean_pi_genus %>% 
+  filter(genus == 'Brevundimonas' | genus == 'Chryseobacterium_A' | genus == 'Flavobacterium' | genus == 'PAR1' | genus == 'Pseudoxanthomonas') %>% 
+  ggplot(aes(x=dataset, y=mean_pi)) +
+  facet_wrap(~ genus, ncol =1) +
+  geom_boxplot() + 
+  geom_jitter()
+
+all_genera <- all_datasets_mean_pi_genus %>% 
+  filter(genus == 'Accumulibacter' | genus == 'Dechloromonas' | genus == 'Rubrivivax') %>% 
+  ggplot(aes(x=dataset, y=mean_pi)) +
+  facet_wrap(~ genus, ncol=3) +
+  geom_boxplot(aes(fill=dataset), outlier.shape=NA, outlier.fill = NULL, outlier.size=NULL, position=position_dodge(1)) +
+  geom_jitter(alpha=.5) +
+  theme_bw()+
+  theme(axis.text.x= element_text(angle=85, hjust=1), legend.position="top", axis.title.x=element_blank(), axis.title.y=element_text(face="bold")) + 
+  ylab("Average Nucleotide \n Diversity of Species Across Samples")
+all_genera 
+
+# getting genome files of specific species 
+
+genomes_list <- all_datasets_mean_pi_genus %>% 
+  filter(genus == 'Brevundimonas' | genus == 'Chryseobacterium_A' | genus == 'Flavobacterium' | genus == 'PAR1' | genus == 'Pseudoxanthomonas' | genus == 'Accumulibacter' | genus == 'Dechloromonas' | genus == 'Rubrivivax') %>% 
+  select(-mean_pi) %>% 
+  mutate(genome = paste(genome, "fa", sep="."))
+
+genera_lists <- genomes_list %>% 
+  group_split(genus)
+
+names(genera_lists) <- c("Accumulibacter", "Brevundimonas", "Chryseobacterium_A", "Dechloromonas", "Flavobacterium", "PAR1", "Pseudoxanthomonas", "Rubrivivax")
+
+lapply(names(genera_lists), function(x) {write.csv(genera_lists[[x]], file = paste0("results/ani_comps/", x, ".csv"), quote = FALSE, row.names = FALSE)})
+
+# grids 
+genera_grid <- plot_grid(reactors_genera, all_genera, ncol=2, labels=c("B", "C"))
+genera_grid
+
+comps_grid <- plot_grid(phyla_div, genera_grid, ncol=1, labels=c("A", ""))
+comps_grid
+
+ggsave("figs/all_datasets_comps_grid.png", comps_grid, width=20, height=25, units=c("cm"))
+
+datasets_comps <- ggarrange(phyla_div, all_genera, ncol=1, common.legend = TRUE, heights = c(1.2,1), labels=c("A", "B"), legend = "bottom")
+
+ggsave("figs/datasets_div_comps.png", datasets_comps, width=20, height=25, units=c("cm"))
+
+
