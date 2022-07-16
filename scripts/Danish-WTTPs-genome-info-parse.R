@@ -104,10 +104,11 @@ danish_div_top_species <- danish_wwtps_div_info %>%
     list(as.character(df[,1]))
   }) + 
   theme_bw() + 
-  theme(legend.position = "bottom", axis.text.x= element_text(angle=85, hjust=1), strip.text=element_text(size=6.5)) +
+  theme(legend.position = "bottom", axis.text.x= element_text(angle=85, hjust=1), strip.text=element_text(size=6.5), axis.title.x=element_text(face="bold"), axis.title.y=element_text(face="bold")) +
   scale_y_continuous(expand=c(0, .005)) +
   xlab("WWTP Sample") +
-  ylab("Nucleotide Diversity of Species in WWTP Sample")
+  ylab("Nucleotide Diversity of Species in WWTP Sample") +
+  labs(color="Phylum")
 
 danish_div_top_species
 
@@ -157,16 +158,18 @@ top10_rel_abund_info$genome <- factor(top10_rel_abund_info$genome, levels=genome
 relative_abundance_plot <- top10_rel_abund_info %>% 
   ggplot(aes(x=as_factor(wwtp), y=fct_rev(genome), fill=relative_abundance)) +
   geom_tile(color="white") +
-  scale_fill_viridis(option="magma", alpha=1, begin=0, end=1, direction=-1, expand=c(0,0)) + theme(axis.text.x= element_text(angle=85, hjust=1), legend.position="bottom", axis.text.y=element_blank(), axis.ticks.y=element_blank(), axis.title.y=element_blank()) +
+  scale_fill_viridis(option="magma", alpha=1, begin=0, end=1, direction=-1, expand=c(0,0)) + 
+  theme(axis.text.x= element_text(angle=85, hjust=1), legend.position="bottom", axis.text.y=element_blank(), axis.ticks.y=element_blank(), axis.title.y=element_blank(), axis.title.x=element_text(face="bold")) +
   scale_y_discrete(expand=c(0,0)) +
   scale_x_discrete(expand=c(0,0)) +
-  xlab("WWTP Sample")
+  xlab("WWTP Sample") +
+  labs(fill="Relative Abundance")
 
 relative_abundance_plot
 
 # grid figures 
 
-danish_abund_div_grid <- plot_grid(danish_div_top_species,relative_abundance_plot, ncol=2, align="h", axis="b", rel_widths=c(2,1.2), labels=c("A","B"))
+danish_abund_div_grid <- plot_grid(danish_div_top_species,relative_abundance_plot, ncol=2, align="h", axis="b", rel_widths=c(2,1.2))
 
 danish_abund_div_grid
 
@@ -193,11 +196,22 @@ danish_wwtps_div_info %>%
   geom_jitter() +
   facet_wrap(~ sample, nrow=3, scales="free_x")
 
+# species in at least 3 samples for comparisons
 avg_nucl_diversity3 %>% 
   ggplot(aes(x=phylum, y=mean_pi, fill=phylum)) +
-  geom_boxplot() +
-  geom_jitter() +
-  theme_bw()+
-  theme(axis.text.x= element_text(angle=85, hjust=1), legend.position="top", axis.title.x=element_blank(), axis.title.y=element_text(face="bold"))
-  
+  geom_boxplot(outlier.shape = NA) +
+  geom_jitter(aes(alpha=0.5)) +
+  ylab("Average Nucleotide Diversity of \n Species Across All WWTP Samples") +
+  theme_bw() +
+  theme(axis.text.x= element_text(angle=85, hjust=1), legend.position="none", axis.title.x=element_blank(), axis.title.y=element_text(face="bold"))
+
+phyla_nucleotide_diversity <- danish_wwtps_div_final_info_phylum %>% 
+  ggplot(aes(x=phylum, y=mean_pi, fill=phylum)) +
+  geom_boxplot(outlier.shape = NA) +
+  geom_jitter(aes(alpha=0.5)) +
+  ylab("Average Nucleotide Diversity of \n Species Across All WWTP Samples") +
+  theme_bw() +
+  theme(axis.text.x= element_text(angle=85, hjust=1), legend.position="none", axis.title.x=element_blank(), axis.title.y=element_text(face="bold"))
+
+ggsave("figs/danish_wwtp_phyla_div.png", phyla_nucleotide_diversity, width=20, height=10, units=c("cm"))  
 
