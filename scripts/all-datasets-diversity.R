@@ -196,6 +196,7 @@ ggsave("figs/all_datasets_comps_grid.png", comps_grid, width=20, height=25, unit
 
 datasets_comps <- ggarrange(phyla_div, all_genera, ncol=1, common.legend = TRUE, heights = c(1.2,1), labels=c("A", "B"), legend = "bottom")
 
-ggsave("figs/datasets_div_comps.png", datasets_comps, width=20, height=25, units=c("cm"))
+ggsave("figs/datasets_div_comps.png", datasets_comps, width=15, height=20, units=c("cm"))
 
-
+datasets_comps
+comps_grid
